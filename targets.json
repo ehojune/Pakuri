@@ -1,0 +1,2990 @@
+{
+  "schema_version": 1,
+  "description": "Curated public developer activity. Identity verification does not imply verified employment. Relevance labels are editorial suggestions.",
+  "people": [
+    {
+      "login": "lh3",
+      "name": "Heng Li",
+      "topics": [
+        "genomics",
+        "alignment",
+        "pangenome"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "lh3/minimap2",
+        "lh3/miniprot"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 480346,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/lh3",
+          "https://api.github.com/users/lh3",
+          "https://hlilab.github.io/",
+          "https://www.broadinstitute.org/people/our-faculty-associate-members",
+          "https://github.com/lh3/minimap2",
+          "https://github.com/lh3/miniprot"
+        ],
+        "projects": [
+          {
+            "repository": "lh3/minimap2",
+            "relationship": "owner",
+            "source": "https://github.com/lh3/minimap2"
+          },
+          {
+            "repository": "lh3/miniprot",
+            "relationship": "owner",
+            "source": "https://github.com/lh3/miniprot"
+          }
+        ],
+        "affiliation": {
+          "current": "Harvard Medical School / Dana-Farber Cancer Institute; Broad associate member",
+          "status": "verified_primary_source",
+          "self_reported": "DFCI / Harvard / Broad",
+          "past_contribution": "lh3/minimap2 owner; lh3/miniprot owner",
+          "sources": [
+            "https://hlilab.github.io/",
+            "https://www.broadinstitute.org/people/our-faculty-associate-members"
+          ]
+        }
+      }
+    },
+    {
+      "login": "joonan30",
+      "name": "Joon-Yong An",
+      "topics": [
+        "human-genetics",
+        "single-cell",
+        "scientific-agents"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "joonan30/microgpt_for_biologist",
+        "joonan-lab/cwas"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 14087522,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/joonan30",
+          "https://api.github.com/users/joonan30",
+          "https://joonanlab.github.io/team/joonan.html",
+          "https://joonanlab.github.io/tools",
+          "https://github.com/joonan30/microgpt_for_biologist"
+        ],
+        "projects": [
+          {
+            "repository": "joonan30/microgpt_for_biologist",
+            "relationship": "owner",
+            "source": "https://github.com/joonan30/microgpt_for_biologist"
+          },
+          {
+            "repository": "joonan-lab/cwas",
+            "relationship": "lab_project",
+            "source": "https://joonanlab.github.io/tools"
+          }
+        ],
+        "affiliation": {
+          "current": "Korea University, Associate Professor",
+          "status": "verified_primary_source",
+          "self_reported": "Korea University",
+          "past_contribution": "joonan30/microgpt_for_biologist owner; joonan-lab/cwas lab_project",
+          "sources": [
+            "https://joonanlab.github.io/team/joonan.html"
+          ]
+        }
+      }
+    },
+    {
+      "login": "harrisongzhang",
+      "name": "Harrison G. Zhang",
+      "topics": [
+        "scientific-agents",
+        "therapeutics"
+      ],
+      "relevance": [
+        "yuan",
+        "labhq",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "harrisongzhang/TheVirtualBiotech"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 67767244,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/harrisongzhang",
+          "https://api.github.com/users/harrisongzhang",
+          "https://github.com/harrisongzhang/TheVirtualBiotech/blob/main/AUTHORS.md",
+          "https://www.biorxiv.org/content/10.64898/2026.02.23.707551v1",
+          "https://github.com/harrisongzhang/TheVirtualBiotech"
+        ],
+        "projects": [
+          {
+            "repository": "harrisongzhang/TheVirtualBiotech",
+            "relationship": "owner",
+            "source": "https://github.com/harrisongzhang/TheVirtualBiotech"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": null,
+          "past_contribution": "TheVirtualBiotech co-developer; Feb 2026 preprint lists Stanford Biomedical Data Science (publication-time affiliation).",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "jmiao24",
+      "name": "Jiacheng Miao",
+      "topics": [
+        "scientific-agents",
+        "reproducibility"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "jmiao24/Paper2Agent"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 56059516,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/jmiao24",
+          "https://api.github.com/users/jmiao24",
+          "https://jiachengmiao.com/",
+          "https://www.nature.com/articles/s41586-026-11044-y",
+          "https://github.com/jmiao24/Paper2Agent"
+        ],
+        "projects": [
+          {
+            "repository": "jmiao24/Paper2Agent",
+            "relationship": "owner",
+            "source": "https://github.com/jmiao24/Paper2Agent"
+          }
+        ],
+        "affiliation": {
+          "current": "Stanford University, HAI Postdoctoral Fellow",
+          "status": "verified_primary_source",
+          "self_reported": "Stanford University",
+          "past_contribution": "jmiao24/Paper2Agent owner",
+          "sources": [
+            "https://jiachengmiao.com/"
+          ]
+        }
+      }
+    },
+    {
+      "login": "karpathy",
+      "name": "Andrej Karpathy",
+      "topics": [
+        "ai",
+        "llm-training",
+        "education"
+      ],
+      "relevance": [
+        "labhq"
+      ],
+      "repositories": [
+        "karpathy/nanoGPT",
+        "karpathy/nanochat"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 241138,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/karpathy",
+          "https://api.github.com/users/karpathy",
+          "https://karpathy.ai/",
+          "https://github.com/karpathy/nanoGPT",
+          "https://github.com/karpathy/nanochat"
+        ],
+        "projects": [
+          {
+            "repository": "karpathy/nanoGPT",
+            "relationship": "owner",
+            "source": "https://github.com/karpathy/nanoGPT"
+          },
+          {
+            "repository": "karpathy/nanochat",
+            "relationship": "owner",
+            "source": "https://github.com/karpathy/nanochat"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": null,
+          "past_contribution": "OpenAI 2015-2017 and 2023-2024; Tesla 2017-2022 (personal biography). No current employment inferred.",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "brentp",
+      "name": "Brent Pedersen",
+      "topics": [
+        "genomics",
+        "variant-analysis"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "brentp/mosdepth",
+        "brentp/cyvcf2"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 1739,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/brentp",
+          "https://api.github.com/users/brentp",
+          "https://github.com/brentp/mosdepth",
+          "https://github.com/brentp/cyvcf2"
+        ],
+        "projects": [
+          {
+            "repository": "brentp/mosdepth",
+            "relationship": "owner",
+            "source": "https://github.com/brentp/mosdepth"
+          },
+          {
+            "repository": "brentp/cyvcf2",
+            "relationship": "owner",
+            "source": "https://github.com/brentp/cyvcf2"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": null,
+          "past_contribution": "brentp/mosdepth owner; brentp/cyvcf2 owner",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "ekg",
+      "name": "Erik Garrison",
+      "topics": [
+        "pangenome",
+        "graph-genomics"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "vgteam/vg"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 145425,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/ekg",
+          "https://api.github.com/users/ekg",
+          "https://uthsc.edu/faculty/profile/search.php?lastName=g",
+          "https://api.github.com/repos/vgteam/vg/contributors"
+        ],
+        "projects": [
+          {
+            "repository": "vgteam/vg",
+            "relationship": "contributor",
+            "contributions_observed": 2859,
+            "source": "https://api.github.com/repos/vgteam/vg/contributors"
+          }
+        ],
+        "affiliation": {
+          "current": "University of Tennessee Health Science Center",
+          "status": "verified_primary_source",
+          "self_reported": "University of Tennessee Health Science Center (UTHSC)",
+          "past_contribution": "vgteam/vg contributor",
+          "sources": [
+            "https://uthsc.edu/faculty/profile/search.php?lastName=g"
+          ]
+        }
+      }
+    },
+    {
+      "login": "ctsa",
+      "name": "Chris Saunders",
+      "topics": [
+        "variant-calling",
+        "structural-variation"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "Illumina/strelka",
+        "Illumina/manta"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 1349103,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/ctsa",
+          "https://api.github.com/users/ctsa",
+          "https://api.github.com/repos/Illumina/strelka/contributors?per_page=100",
+          "https://api.github.com/repos/Illumina/manta/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "Illumina/strelka",
+            "relationship": "contributor",
+            "contributions_observed": 1925,
+            "source": "https://api.github.com/repos/Illumina/strelka/contributors?per_page=100"
+          },
+          {
+            "repository": "Illumina/manta",
+            "relationship": "contributor",
+            "contributions_observed": 1939,
+            "source": "https://api.github.com/repos/Illumina/manta/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": null,
+          "past_contribution": "Illumina/strelka and Illumina/manta contributor. Project ownership does not establish present employment.",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "pkrusche",
+      "name": "Peter Krusche",
+      "topics": [
+        "genomics",
+        "benchmarking"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "Illumina/hap.py"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 1199561,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/pkrusche",
+          "https://api.github.com/users/pkrusche",
+          "https://api.github.com/repos/Illumina/hap.py/contributors"
+        ],
+        "projects": [
+          {
+            "repository": "Illumina/hap.py",
+            "relationship": "contributor",
+            "contributions_observed": 75,
+            "source": "https://api.github.com/repos/Illumina/hap.py/contributors"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": null,
+          "past_contribution": "Illumina/hap.py lead contributor; Illumina repository contribution does not establish present employment.",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "egor-dolzhenko",
+      "name": "Egor Dolzhenko",
+      "topics": [
+        "genomics",
+        "tandem-repeats"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "Illumina/ExpansionHunter"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 973889,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/egor-dolzhenko",
+          "https://api.github.com/users/egor-dolzhenko",
+          "https://emea.illumina.com/science/genomics-research/articles/str-expansionhunter.html",
+          "https://api.github.com/repos/Illumina/ExpansionHunter/contributors"
+        ],
+        "projects": [
+          {
+            "repository": "Illumina/ExpansionHunter",
+            "relationship": "contributor",
+            "contributions_observed": 59,
+            "source": "https://api.github.com/repos/Illumina/ExpansionHunter/contributors"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "@PacificBiosciences",
+          "past_contribution": "ExpansionHunter developer; official Illumina article explicitly calls him an Illumina alumnus.",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "bw2",
+      "name": "Ben Weisburd",
+      "topics": [
+        "genomics",
+        "tandem-repeats",
+        "rare-disease"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "broadinstitute/str-analysis"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 6240170,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/bw2",
+          "https://api.github.com/users/bw2",
+          "https://www.broadinstitute.org/people/senior-scientific-staff",
+          "https://www.broadinstitute.org/bios/ben-weisburd",
+          "https://api.github.com/repos/broadinstitute/str-analysis/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "broadinstitute/str-analysis",
+            "relationship": "contributor",
+            "contributions_observed": 1337,
+            "source": "https://api.github.com/repos/broadinstitute/str-analysis/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "Broad Institute",
+          "status": "verified_primary_source",
+          "self_reported": "Broad Institute",
+          "past_contribution": "broadinstitute/str-analysis contributor",
+          "sources": [
+            "https://www.broadinstitute.org/people/senior-scientific-staff",
+            "https://www.broadinstitute.org/bios/ben-weisburd"
+          ]
+        }
+      }
+    },
+    {
+      "login": "jkbonfield",
+      "name": "James Bonfield",
+      "topics": [
+        "genomics",
+        "formats",
+        "compression"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "samtools/htslib"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 2210525,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/jkbonfield",
+          "https://api.github.com/users/jkbonfield",
+          "https://www.sanger.ac.uk/person/bonfield-james/",
+          "https://api.github.com/repos/samtools/htslib/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "samtools/htslib",
+            "relationship": "contributor",
+            "contributions_observed": 868,
+            "source": "https://api.github.com/repos/samtools/htslib/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "Wellcome Sanger Institute",
+          "status": "verified_primary_source",
+          "self_reported": "Wellcome Trust Sanger Institute",
+          "past_contribution": "samtools/htslib contributor",
+          "sources": [
+            "https://www.sanger.ac.uk/person/bonfield-james/"
+          ]
+        }
+      }
+    },
+    {
+      "login": "alexdobin",
+      "name": "Alexander Dobin",
+      "topics": [
+        "rna-seq",
+        "single-cell",
+        "alignment"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "alexdobin/STAR"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 6960419,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/alexdobin",
+          "https://api.github.com/users/alexdobin",
+          "https://arcinstitute.org/news/meet-alex-dobin",
+          "https://github.com/alexdobin/STAR"
+        ],
+        "projects": [
+          {
+            "repository": "alexdobin/STAR",
+            "relationship": "owner",
+            "source": "https://github.com/alexdobin/STAR"
+          }
+        ],
+        "affiliation": {
+          "current": "Arc Institute, Director of Bioinformatics",
+          "status": "verified_primary_source",
+          "self_reported": "Arc Institute",
+          "past_contribution": "STAR development began at Cold Spring Harbor Laboratory; current Arc affiliation is separately sourced.",
+          "sources": [
+            "https://arcinstitute.org/news/meet-alex-dobin"
+          ]
+        }
+      }
+    },
+    {
+      "login": "rob-p",
+      "name": "Rob Patro",
+      "topics": [
+        "rna-seq",
+        "quantification",
+        "algorithms"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "COMBINE-lab/salmon"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 361470,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/rob-p",
+          "https://api.github.com/users/rob-p",
+          "https://www.cs.umd.edu/people/nomad",
+          "https://api.github.com/repos/COMBINE-lab/salmon/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "COMBINE-lab/salmon",
+            "relationship": "contributor",
+            "contributions_observed": 1098,
+            "source": "https://api.github.com/repos/COMBINE-lab/salmon/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "University of Maryland",
+          "status": "verified_primary_source",
+          "self_reported": "University of Maryland",
+          "past_contribution": "COMBINE-lab/salmon contributor",
+          "sources": [
+            "https://www.cs.umd.edu/people/nomad"
+          ]
+        }
+      }
+    },
+    {
+      "login": "BenLangmead",
+      "name": "Ben Langmead",
+      "topics": [
+        "genomics",
+        "alignment"
+      ],
+      "relevance": [],
+      "repositories": [
+        "BenLangmead/bowtie2"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 3075483,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/BenLangmead",
+          "https://api.github.com/users/BenLangmead",
+          "https://engineering.jhu.edu/faculty/benjamin-langmead/",
+          "https://github.com/BenLangmead/bowtie2"
+        ],
+        "projects": [
+          {
+            "repository": "BenLangmead/bowtie2",
+            "relationship": "owner",
+            "source": "https://github.com/BenLangmead/bowtie2"
+          }
+        ],
+        "affiliation": {
+          "current": "Johns Hopkins University",
+          "status": "verified_primary_source",
+          "self_reported": "Johns Hopkins University",
+          "past_contribution": "BenLangmead/bowtie2 owner",
+          "sources": [
+            "https://engineering.jhu.edu/faculty/benjamin-langmead/"
+          ]
+        }
+      }
+    },
+    {
+      "login": "marcelm",
+      "name": "Marcel Martin",
+      "topics": [
+        "genomics",
+        "read-processing"
+      ],
+      "relevance": [],
+      "repositories": [
+        "marcelm/cutadapt"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 724864,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/marcelm",
+          "https://api.github.com/users/marcelm",
+          "https://github.com/marcelm/cutadapt"
+        ],
+        "projects": [
+          {
+            "repository": "marcelm/cutadapt",
+            "relationship": "owner",
+            "source": "https://github.com/marcelm/cutadapt"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": null,
+          "past_contribution": "marcelm/cutadapt owner",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "tseemann",
+      "name": "Torsten Seemann",
+      "topics": [
+        "microbial-genomics",
+        "antimicrobial-resistance"
+      ],
+      "relevance": [],
+      "repositories": [
+        "tseemann/abricate"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 453972,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/tseemann",
+          "https://api.github.com/users/tseemann",
+          "https://github.com/tseemann/abricate"
+        ],
+        "projects": [
+          {
+            "repository": "tseemann/abricate",
+            "relationship": "owner",
+            "source": "https://github.com/tseemann/abricate"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "The University of Melbourne",
+          "past_contribution": "tseemann/abricate owner",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "shenwei356",
+      "name": "Wei Shen",
+      "topics": [
+        "genomics",
+        "sequence-tools"
+      ],
+      "relevance": [],
+      "repositories": [
+        "shenwei356/seqkit"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 2655946,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/shenwei356",
+          "https://api.github.com/users/shenwei356",
+          "https://github.com/shenwei356/seqkit"
+        ],
+        "projects": [
+          {
+            "repository": "shenwei356/seqkit",
+            "relationship": "owner",
+            "source": "https://github.com/shenwei356/seqkit"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "Chongqing Medical University, China",
+          "past_contribution": "shenwei356/seqkit owner",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "falexwolf",
+      "name": "F. Alexander Wolf",
+      "topics": [
+        "single-cell",
+        "data-infrastructure"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "scverse/scanpy"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 16916678,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/falexwolf",
+          "https://api.github.com/users/falexwolf",
+          "https://falexwolf.com/",
+          "https://api.github.com/repos/scverse/scanpy/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "scverse/scanpy",
+            "relationship": "contributor",
+            "contributions_observed": 1279,
+            "source": "https://api.github.com/repos/scverse/scanpy/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "Lamin (personal statement)",
+          "status": "verified_primary_source",
+          "self_reported": "Lamin",
+          "past_contribution": "Scanpy creator; previously led Cellarity compute platform (personal site).",
+          "sources": [
+            "https://falexwolf.com/"
+          ]
+        }
+      }
+    },
+    {
+      "login": "ivirshup",
+      "name": "Isaac Virshup",
+      "topics": [
+        "single-cell",
+        "data-formats"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "scverse/anndata"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 8238804,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/ivirshup",
+          "https://api.github.com/users/ivirshup",
+          "https://api.github.com/repos/scverse/anndata/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "scverse/anndata",
+            "relationship": "contributor",
+            "contributions_observed": 436,
+            "source": "https://api.github.com/repos/scverse/anndata/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "CZI",
+          "past_contribution": "scverse/anndata contributor",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "adamgayoso",
+      "name": "Adam Gayoso",
+      "topics": [
+        "single-cell",
+        "genomic-ai"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "scverse/scvi-tools",
+        "google-deepmind/alphagenome"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 10859440,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/adamgayoso",
+          "https://api.github.com/users/adamgayoso",
+          "https://adamgayoso.github.io/",
+          "https://api.github.com/repos/scverse/scvi-tools/contributors",
+          "https://api.github.com/repos/google-deepmind/alphagenome/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "scverse/scvi-tools",
+            "relationship": "contributor",
+            "contributions_observed": 2038,
+            "source": "https://api.github.com/repos/scverse/scvi-tools/contributors"
+          },
+          {
+            "repository": "google-deepmind/alphagenome",
+            "relationship": "contributor",
+            "contributions_observed": 15,
+            "source": "https://api.github.com/repos/google-deepmind/alphagenome/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "Google DeepMind, Senior Research Scientist",
+          "status": "verified_primary_source",
+          "self_reported": "@google-deepmind",
+          "past_contribution": "scvi-tools development at UC Berkeley; current Google DeepMind affiliation is separately sourced.",
+          "sources": [
+            "https://adamgayoso.github.io/"
+          ]
+        }
+      }
+    },
+    {
+      "login": "sokrypton",
+      "name": "Sergey Ovchinnikov",
+      "topics": [
+        "protein",
+        "structure-prediction"
+      ],
+      "relevance": [],
+      "repositories": [
+        "sokrypton/ColabFold"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 4187522,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/sokrypton",
+          "https://api.github.com/users/sokrypton",
+          "https://solab.org/",
+          "https://github.com/sokrypton/ColabFold"
+        ],
+        "projects": [
+          {
+            "repository": "sokrypton/ColabFold",
+            "relationship": "owner",
+            "source": "https://github.com/sokrypton/ColabFold"
+          }
+        ],
+        "affiliation": {
+          "current": "MIT Biology (lab site)",
+          "status": "verified_primary_source",
+          "self_reported": null,
+          "past_contribution": "sokrypton/ColabFold owner",
+          "sources": [
+            "https://solab.org/"
+          ]
+        }
+      }
+    },
+    {
+      "login": "milot-mirdita",
+      "name": "Milot Mirdita",
+      "topics": [
+        "protein",
+        "homology-search"
+      ],
+      "relevance": [],
+      "repositories": [
+        "milot-mirdita/MMseqs2-App"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 63657,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/milot-mirdita",
+          "https://api.github.com/users/milot-mirdita",
+          "https://mirdita.org/static/CV.pdf",
+          "https://github.com/milot-mirdita/MMseqs2-App"
+        ],
+        "projects": [
+          {
+            "repository": "milot-mirdita/MMseqs2-App",
+            "relationship": "owner",
+            "source": "https://github.com/milot-mirdita/MMseqs2-App"
+          }
+        ],
+        "affiliation": {
+          "current": "SKKU, Assistant Professor since 2026-01 (personal CV)",
+          "status": "verified_primary_source",
+          "self_reported": null,
+          "past_contribution": "SNU postdoc 2022-07 to 2025-12, per personal CV.",
+          "sources": [
+            "https://mirdita.org/static/CV.pdf"
+          ]
+        }
+      }
+    },
+    {
+      "login": "mheinzinger",
+      "name": "Michael Heinzinger",
+      "topics": [
+        "protein",
+        "protein-language-models"
+      ],
+      "relevance": [],
+      "repositories": [
+        "Rostlab/ProtTrans"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 49648207,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/mheinzinger",
+          "https://api.github.com/users/mheinzinger",
+          "https://www.cs.cit.tum.de/en/bio/members/michael-heinzinger/",
+          "https://api.github.com/repos/Rostlab/ProtTrans/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "Rostlab/ProtTrans",
+            "relationship": "contributor",
+            "contributions_observed": 18,
+            "source": "https://api.github.com/repos/Rostlab/ProtTrans/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "Technical University of Munich",
+          "status": "verified_primary_source",
+          "self_reported": null,
+          "past_contribution": "Rostlab/ProtTrans contributor",
+          "sources": [
+            "https://www.cs.cit.tum.de/en/bio/members/michael-heinzinger/"
+          ]
+        }
+      }
+    },
+    {
+      "login": "hwchase17",
+      "name": "Harrison Chase",
+      "topics": [
+        "agents",
+        "orchestration"
+      ],
+      "relevance": [
+        "labhq",
+        "kuromi"
+      ],
+      "repositories": [
+        "langchain-ai/langchain"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 11986836,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/hwchase17",
+          "https://api.github.com/users/hwchase17",
+          "https://www.langchain.com/about",
+          "https://api.github.com/repos/langchain-ai/langchain/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "langchain-ai/langchain",
+            "relationship": "contributor",
+            "contributions_observed": 1235,
+            "source": "https://api.github.com/repos/langchain-ai/langchain/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "LangChain, Co-Founder",
+          "status": "verified_primary_source",
+          "self_reported": null,
+          "past_contribution": "langchain-ai/langchain contributor",
+          "sources": [
+            "https://www.langchain.com/about"
+          ]
+        }
+      }
+    },
+    {
+      "login": "hamelsmu",
+      "name": "Hamel Husain",
+      "topics": [
+        "evaluation",
+        "agents"
+      ],
+      "relevance": [
+        "labhq",
+        "kuromi",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "hamelsmu/evals-skills"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 1483922,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/hamelsmu",
+          "https://api.github.com/users/hamelsmu",
+          "https://hamel.dev/",
+          "https://github.com/hamelsmu/evals-skills"
+        ],
+        "projects": [
+          {
+            "repository": "hamelsmu/evals-skills",
+            "relationship": "owner",
+            "source": "https://github.com/hamelsmu/evals-skills"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "Parlance Labs",
+          "past_contribution": "hamelsmu/evals-skills owner",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "jerryjliu",
+      "name": "Jerry Liu",
+      "topics": [
+        "agents",
+        "retrieval"
+      ],
+      "relevance": [
+        "yuan",
+        "kuromi"
+      ],
+      "repositories": [
+        "run-llama/llama_index"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 4858925,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/jerryjliu",
+          "https://api.github.com/users/jerryjliu",
+          "https://api.github.com/repos/run-llama/llama_index/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "run-llama/llama_index",
+            "relationship": "contributor",
+            "contributions_observed": 923,
+            "source": "https://api.github.com/repos/run-llama/llama_index/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": null,
+          "past_contribution": "run-llama/llama_index contributor",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "Torantulino",
+      "name": "Toran Bruce Richards",
+      "topics": [
+        "agents",
+        "automation"
+      ],
+      "relevance": [
+        "labhq"
+      ],
+      "repositories": [
+        "Significant-Gravitas/AutoGPT"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 22963551,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/Torantulino",
+          "https://api.github.com/users/Torantulino",
+          "https://api.github.com/repos/Significant-Gravitas/AutoGPT/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "Significant-Gravitas/AutoGPT",
+            "relationship": "contributor",
+            "contributions_observed": 509,
+            "source": "https://api.github.com/repos/Significant-Gravitas/AutoGPT/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": null,
+          "past_contribution": "Significant-Gravitas/AutoGPT contributor",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "yoheinakajima",
+      "name": "Yohei Nakajima",
+      "topics": [
+        "agents",
+        "automation"
+      ],
+      "relevance": [
+        "labhq"
+      ],
+      "repositories": [
+        "yoheinakajima/babyagi"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 1701418,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/yoheinakajima",
+          "https://api.github.com/users/yoheinakajima",
+          "https://github.com/yoheinakajima/babyagi"
+        ],
+        "projects": [
+          {
+            "repository": "yoheinakajima/babyagi",
+            "relationship": "owner",
+            "source": "https://github.com/yoheinakajima/babyagi"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "Untapped Capital",
+          "past_contribution": "yoheinakajima/babyagi owner",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "simonw",
+      "name": "Simon Willison",
+      "topics": [
+        "llm-tools",
+        "data-tools",
+        "security"
+      ],
+      "relevance": [
+        "kuromi",
+        "yuan"
+      ],
+      "repositories": [
+        "simonw/llm"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 9599,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/simonw",
+          "https://api.github.com/users/simonw",
+          "https://simonwillison.net/",
+          "https://github.com/simonw/llm"
+        ],
+        "projects": [
+          {
+            "repository": "simonw/llm",
+            "relationship": "owner",
+            "source": "https://github.com/simonw/llm"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "Datasette",
+          "past_contribution": "simonw/llm owner",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "jlowin",
+      "name": "Jeremiah Lowin",
+      "topics": [
+        "mcp",
+        "agents",
+        "workflow"
+      ],
+      "relevance": [
+        "kuromi",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "PrefectHQ/fastmcp"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 153965,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/jlowin",
+          "https://api.github.com/users/jlowin",
+          "https://jlowin.dev/",
+          "https://api.github.com/repos/PrefectHQ/fastmcp/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "PrefectHQ/fastmcp",
+            "relationship": "contributor",
+            "contributions_observed": 2688,
+            "source": "https://api.github.com/repos/PrefectHQ/fastmcp/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "@PrefectHQ ",
+          "past_contribution": "PrefectHQ/fastmcp contributor",
+          "sources": []
+        }
+      }
+    },
+    {
+      "login": "pditommaso",
+      "name": "Paolo Di Tommaso",
+      "topics": [
+        "workflow",
+        "reproducibility"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "nextflow-io/nextflow"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 816968,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/pditommaso",
+          "https://api.github.com/users/pditommaso",
+          "https://seqera.io/about/",
+          "https://api.github.com/repos/nextflow-io/nextflow/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "nextflow-io/nextflow",
+            "relationship": "contributor",
+            "contributions_observed": 6453,
+            "source": "https://api.github.com/repos/nextflow-io/nextflow/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "Seqera, Chief Architect and Co-Founder",
+          "status": "verified_primary_source",
+          "self_reported": "Seqera Labs",
+          "past_contribution": "nextflow-io/nextflow contributor",
+          "sources": [
+            "https://seqera.io/about/"
+          ]
+        }
+      }
+    },
+    {
+      "login": "johanneskoester",
+      "name": "Johannes Köster",
+      "topics": [
+        "workflow",
+        "reproducibility"
+      ],
+      "relevance": [
+        "yuan",
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "snakemake/snakemake"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 1858646,
+        "account_type": "User",
+        "evidence_level": "primary_crosslink",
+        "sources": [
+          "https://github.com/johanneskoester",
+          "https://api.github.com/users/johanneskoester",
+          "https://koesterlab.github.io/johannes.html",
+          "https://api.github.com/repos/snakemake/snakemake/contributors?per_page=100"
+        ],
+        "projects": [
+          {
+            "repository": "snakemake/snakemake",
+            "relationship": "contributor",
+            "contributions_observed": 3457,
+            "source": "https://api.github.com/repos/snakemake/snakemake/contributors?per_page=100"
+          }
+        ],
+        "affiliation": {
+          "current": "University of Duisburg-Essen, Professor",
+          "status": "verified_primary_source",
+          "self_reported": "University of Duisburg-Essen",
+          "past_contribution": "snakemake/snakemake contributor",
+          "sources": [
+            "https://koesterlab.github.io/johannes.html"
+          ]
+        }
+      }
+    },
+    {
+      "login": "StellaAthena",
+      "name": "Stella Biderman",
+      "topics": [
+        "evaluation",
+        "open-models"
+      ],
+      "relevance": [
+        "labhq",
+        "kuromi"
+      ],
+      "repositories": [
+        "EleutherAI/lm-evaluation-harness"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 15899312,
+        "account_type": "User",
+        "evidence_level": "self_identified_public_account",
+        "sources": [
+          "https://github.com/StellaAthena",
+          "https://api.github.com/users/StellaAthena",
+          "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/contributors"
+        ],
+        "projects": [
+          {
+            "repository": "EleutherAI/lm-evaluation-harness",
+            "relationship": "contributor",
+            "contributions_observed": 199,
+            "source": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/contributors"
+          }
+        ],
+        "affiliation": {
+          "current": "unconfirmed",
+          "status": "unconfirmed",
+          "self_reported": "Booz Allen Hamilton, EleutherAI",
+          "past_contribution": "EleutherAI/lm-evaluation-harness contributor",
+          "sources": []
+        }
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "login": "joonan-lab",
+      "name": "joonanlab",
+      "topics": [
+        "human-genetics",
+        "precision-oncology",
+        "quality-control",
+        "scientific-agents",
+        "single-cell",
+        "therapeutics"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "joonan-lab/cwas",
+        "joonan-lab/AnnQ",
+        "joonan-lab/IDAP-pipeline"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 54629085,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/joonan-lab",
+          "https://api.github.com/users/joonan-lab",
+          "https://joonanlab.github.io/tools"
+        ]
+      }
+    },
+    {
+      "login": "vgteam",
+      "name": "vgteam",
+      "topics": [
+        "graph-genomics",
+        "pangenome"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "vgteam/vg"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 15925452,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/vgteam",
+          "https://api.github.com/users/vgteam"
+        ]
+      }
+    },
+    {
+      "login": "Illumina",
+      "name": "Illumina",
+      "topics": [
+        "benchmarking",
+        "genomics",
+        "structural-variation",
+        "tandem-repeats",
+        "variant-calling"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "Illumina/strelka",
+        "Illumina/manta",
+        "Illumina/hap.py",
+        "Illumina/ExpansionHunter"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 11462464,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/Illumina",
+          "https://api.github.com/users/Illumina",
+          "https://emea.illumina.com/science/genomics-research/articles/str-expansionhunter.html"
+        ]
+      }
+    },
+    {
+      "login": "broadinstitute",
+      "name": "Broad Institute",
+      "topics": [
+        "genomics",
+        "rare-disease",
+        "tandem-repeats",
+        "variant-calling"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "broadinstitute/str-analysis",
+        "broadinstitute/gatk"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 393552,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/broadinstitute",
+          "https://api.github.com/users/broadinstitute",
+          "https://www.broadinstitute.org/data-sciences-platform/analytical-tools"
+        ]
+      }
+    },
+    {
+      "login": "samtools",
+      "name": "samtools",
+      "topics": [
+        "compression",
+        "formats",
+        "genomics"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "repositories": [
+        "samtools/htslib"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 1518450,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/samtools",
+          "https://api.github.com/users/samtools"
+        ]
+      }
+    },
+    {
+      "login": "COMBINE-lab",
+      "name": "COMBINE lab",
+      "topics": [
+        "algorithms",
+        "quantification",
+        "rna-seq"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "COMBINE-lab/salmon"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 8410750,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/COMBINE-lab",
+          "https://api.github.com/users/COMBINE-lab",
+          "https://www.cs.umd.edu/people/nomad"
+        ]
+      }
+    },
+    {
+      "login": "scverse",
+      "name": "scverse",
+      "topics": [
+        "data-formats",
+        "data-infrastructure",
+        "genomic-ai",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "scverse/scanpy",
+        "scverse/anndata",
+        "scverse/scvi-tools"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 95305807,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/scverse",
+          "https://api.github.com/users/scverse"
+        ]
+      }
+    },
+    {
+      "login": "google-deepmind",
+      "name": "Google DeepMind",
+      "topics": [
+        "genomic-ai",
+        "single-cell",
+        "variant-effects"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "google-deepmind/alphagenome",
+        "google-deepmind/alphagenome_research"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 8596759,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/google-deepmind",
+          "https://api.github.com/users/google-deepmind",
+          "https://deepmind.google/science/alphagenome/"
+        ]
+      }
+    },
+    {
+      "login": "Rostlab",
+      "name": "Rostlab",
+      "topics": [
+        "protein",
+        "protein-language-models"
+      ],
+      "relevance": [],
+      "repositories": [
+        "Rostlab/ProtTrans"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 4093405,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/Rostlab",
+          "https://api.github.com/users/Rostlab"
+        ]
+      }
+    },
+    {
+      "login": "langchain-ai",
+      "name": "LangChain",
+      "topics": [
+        "agents",
+        "orchestration"
+      ],
+      "relevance": [
+        "kuromi",
+        "labhq"
+      ],
+      "repositories": [
+        "langchain-ai/langchain"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 126733545,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/langchain-ai",
+          "https://api.github.com/users/langchain-ai",
+          "https://www.langchain.com/about"
+        ]
+      }
+    },
+    {
+      "login": "run-llama",
+      "name": "LlamaIndex",
+      "topics": [
+        "agents",
+        "retrieval"
+      ],
+      "relevance": [
+        "kuromi",
+        "yuan"
+      ],
+      "repositories": [
+        "run-llama/llama_index"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 130722866,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/run-llama",
+          "https://api.github.com/users/run-llama"
+        ]
+      }
+    },
+    {
+      "login": "Significant-Gravitas",
+      "name": "AutoGPT",
+      "topics": [
+        "agents",
+        "automation"
+      ],
+      "relevance": [
+        "labhq"
+      ],
+      "repositories": [
+        "Significant-Gravitas/AutoGPT"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 130738209,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/Significant-Gravitas",
+          "https://api.github.com/users/Significant-Gravitas"
+        ]
+      }
+    },
+    {
+      "login": "PrefectHQ",
+      "name": "Prefect",
+      "topics": [
+        "agents",
+        "mcp",
+        "workflow"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "kuromi"
+      ],
+      "repositories": [
+        "PrefectHQ/fastmcp"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 39270919,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/PrefectHQ",
+          "https://api.github.com/users/PrefectHQ"
+        ]
+      }
+    },
+    {
+      "login": "nextflow-io",
+      "name": "nextflow-io",
+      "topics": [
+        "reproducibility",
+        "workflow"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "nextflow-io/nextflow"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 6698688,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/nextflow-io",
+          "https://api.github.com/users/nextflow-io",
+          "https://docs.seqera.io/nextflow/"
+        ]
+      }
+    },
+    {
+      "login": "snakemake",
+      "name": "Snakemake",
+      "topics": [
+        "reproducibility",
+        "workflow"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "repositories": [
+        "snakemake/snakemake"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 33450111,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/snakemake",
+          "https://api.github.com/users/snakemake",
+          "https://koesterlab.github.io/"
+        ]
+      }
+    },
+    {
+      "login": "EleutherAI",
+      "name": "EleutherAI",
+      "topics": [
+        "evaluation",
+        "open-models"
+      ],
+      "relevance": [
+        "kuromi",
+        "labhq"
+      ],
+      "repositories": [
+        "EleutherAI/lm-evaluation-harness"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "account_id": 68924597,
+        "account_type": "Organization",
+        "sources": [
+          "https://github.com/EleutherAI",
+          "https://api.github.com/users/EleutherAI"
+        ]
+      }
+    }
+  ],
+  "repositories": [
+    {
+      "full_name": "lh3/minimap2",
+      "topics": [
+        "alignment",
+        "genomics",
+        "pangenome"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 97612481,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 480346,
+        "sources": [
+          "https://github.com/lh3/minimap2",
+          "https://api.github.com/repos/lh3/minimap2"
+        ]
+      }
+    },
+    {
+      "full_name": "lh3/miniprot",
+      "topics": [
+        "alignment",
+        "genomics",
+        "pangenome"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 521097490,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 480346,
+        "sources": [
+          "https://github.com/lh3/miniprot",
+          "https://api.github.com/repos/lh3/miniprot"
+        ]
+      }
+    },
+    {
+      "full_name": "joonan30/microgpt_for_biologist",
+      "topics": [
+        "human-genetics",
+        "scientific-agents",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 1224922637,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 14087522,
+        "sources": [
+          "https://github.com/joonan30/microgpt_for_biologist",
+          "https://api.github.com/repos/joonan30/microgpt_for_biologist"
+        ]
+      }
+    },
+    {
+      "full_name": "joonan-lab/cwas",
+      "topics": [
+        "human-genetics",
+        "scientific-agents",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 251275064,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 54629085,
+        "sources": [
+          "https://github.com/joonan-lab/cwas",
+          "https://api.github.com/repos/joonan-lab/cwas"
+        ]
+      }
+    },
+    {
+      "full_name": "harrisongzhang/TheVirtualBiotech",
+      "topics": [
+        "scientific-agents",
+        "therapeutics"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "labhq",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 1331626452,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 67767244,
+        "sources": [
+          "https://github.com/harrisongzhang/TheVirtualBiotech",
+          "https://api.github.com/repos/harrisongzhang/TheVirtualBiotech"
+        ]
+      }
+    },
+    {
+      "full_name": "jmiao24/Paper2Agent",
+      "topics": [
+        "reproducibility",
+        "scientific-agents"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 1053373003,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 56059516,
+        "sources": [
+          "https://github.com/jmiao24/Paper2Agent",
+          "https://api.github.com/repos/jmiao24/Paper2Agent"
+        ]
+      }
+    },
+    {
+      "full_name": "karpathy/nanoGPT",
+      "topics": [
+        "ai",
+        "education",
+        "llm-training"
+      ],
+      "relevance": [
+        "labhq"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 582822129,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 241138,
+        "sources": [
+          "https://github.com/karpathy/nanoGPT",
+          "https://api.github.com/repos/karpathy/nanoGPT"
+        ]
+      }
+    },
+    {
+      "full_name": "karpathy/nanochat",
+      "topics": [
+        "ai",
+        "education",
+        "llm-training"
+      ],
+      "relevance": [
+        "labhq"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 1075431749,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 241138,
+        "sources": [
+          "https://github.com/karpathy/nanochat",
+          "https://api.github.com/repos/karpathy/nanochat"
+        ]
+      }
+    },
+    {
+      "full_name": "brentp/mosdepth",
+      "topics": [
+        "genomics",
+        "variant-analysis"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 101316174,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 1739,
+        "sources": [
+          "https://github.com/brentp/mosdepth",
+          "https://api.github.com/repos/brentp/mosdepth"
+        ]
+      }
+    },
+    {
+      "full_name": "brentp/cyvcf2",
+      "topics": [
+        "genomics",
+        "variant-analysis"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 40605275,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 1739,
+        "sources": [
+          "https://github.com/brentp/cyvcf2",
+          "https://api.github.com/repos/brentp/cyvcf2"
+        ]
+      }
+    },
+    {
+      "full_name": "vgteam/vg",
+      "topics": [
+        "graph-genomics",
+        "pangenome"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 24727800,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 15925452,
+        "sources": [
+          "https://github.com/vgteam/vg",
+          "https://api.github.com/repos/vgteam/vg"
+        ]
+      }
+    },
+    {
+      "full_name": "Illumina/strelka",
+      "topics": [
+        "structural-variation",
+        "variant-calling"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 71189875,
+        "public": true,
+        "archived": true,
+        "fork": false,
+        "owner_id": 11462464,
+        "sources": [
+          "https://github.com/Illumina/strelka",
+          "https://api.github.com/repos/Illumina/strelka"
+        ]
+      }
+    },
+    {
+      "full_name": "Illumina/manta",
+      "topics": [
+        "structural-variation",
+        "variant-calling"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 10390195,
+        "public": true,
+        "archived": true,
+        "fork": false,
+        "owner_id": 11462464,
+        "sources": [
+          "https://github.com/Illumina/manta",
+          "https://api.github.com/repos/Illumina/manta"
+        ]
+      }
+    },
+    {
+      "full_name": "Illumina/hap.py",
+      "topics": [
+        "benchmarking",
+        "genomics"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 34729807,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 11462464,
+        "sources": [
+          "https://github.com/Illumina/hap.py",
+          "https://api.github.com/repos/Illumina/hap.py"
+        ]
+      }
+    },
+    {
+      "full_name": "Illumina/ExpansionHunter",
+      "topics": [
+        "genomics",
+        "tandem-repeats"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 73416041,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 11462464,
+        "sources": [
+          "https://github.com/Illumina/ExpansionHunter",
+          "https://api.github.com/repos/Illumina/ExpansionHunter"
+        ]
+      }
+    },
+    {
+      "full_name": "broadinstitute/str-analysis",
+      "topics": [
+        "genomics",
+        "rare-disease",
+        "tandem-repeats"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 379382439,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 393552,
+        "sources": [
+          "https://github.com/broadinstitute/str-analysis",
+          "https://api.github.com/repos/broadinstitute/str-analysis"
+        ]
+      }
+    },
+    {
+      "full_name": "samtools/htslib",
+      "topics": [
+        "compression",
+        "formats",
+        "genomics"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 4339773,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 1518450,
+        "sources": [
+          "https://github.com/samtools/htslib",
+          "https://api.github.com/repos/samtools/htslib"
+        ]
+      }
+    },
+    {
+      "full_name": "alexdobin/STAR",
+      "topics": [
+        "alignment",
+        "rna-seq",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 17778869,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 6960419,
+        "sources": [
+          "https://github.com/alexdobin/STAR",
+          "https://api.github.com/repos/alexdobin/STAR"
+        ]
+      }
+    },
+    {
+      "full_name": "COMBINE-lab/salmon",
+      "topics": [
+        "algorithms",
+        "quantification",
+        "rna-seq"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 32549942,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 8410750,
+        "sources": [
+          "https://github.com/COMBINE-lab/salmon",
+          "https://api.github.com/repos/COMBINE-lab/salmon"
+        ]
+      }
+    },
+    {
+      "full_name": "BenLangmead/bowtie2",
+      "topics": [
+        "alignment",
+        "genomics"
+      ],
+      "relevance": [],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 7263010,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 3075483,
+        "sources": [
+          "https://github.com/BenLangmead/bowtie2",
+          "https://api.github.com/repos/BenLangmead/bowtie2"
+        ]
+      }
+    },
+    {
+      "full_name": "marcelm/cutadapt",
+      "topics": [
+        "genomics",
+        "read-processing"
+      ],
+      "relevance": [],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 4577614,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 724864,
+        "sources": [
+          "https://github.com/marcelm/cutadapt",
+          "https://api.github.com/repos/marcelm/cutadapt"
+        ]
+      }
+    },
+    {
+      "full_name": "tseemann/abricate",
+      "topics": [
+        "antimicrobial-resistance",
+        "microbial-genomics"
+      ],
+      "relevance": [],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 21923637,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 453972,
+        "sources": [
+          "https://github.com/tseemann/abricate",
+          "https://api.github.com/repos/tseemann/abricate"
+        ]
+      }
+    },
+    {
+      "full_name": "shenwei356/seqkit",
+      "topics": [
+        "genomics",
+        "sequence-tools"
+      ],
+      "relevance": [],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 52715040,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 2655946,
+        "sources": [
+          "https://github.com/shenwei356/seqkit",
+          "https://api.github.com/repos/shenwei356/seqkit"
+        ]
+      }
+    },
+    {
+      "full_name": "scverse/scanpy",
+      "topics": [
+        "data-infrastructure",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 80342493,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 95305807,
+        "sources": [
+          "https://github.com/scverse/scanpy",
+          "https://api.github.com/repos/scverse/scanpy"
+        ]
+      }
+    },
+    {
+      "full_name": "scverse/anndata",
+      "topics": [
+        "data-formats",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 100038377,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 95305807,
+        "sources": [
+          "https://github.com/scverse/anndata",
+          "https://api.github.com/repos/scverse/anndata"
+        ]
+      }
+    },
+    {
+      "full_name": "scverse/scvi-tools",
+      "topics": [
+        "genomic-ai",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 102567256,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 95305807,
+        "sources": [
+          "https://github.com/scverse/scvi-tools",
+          "https://api.github.com/repos/scverse/scvi-tools"
+        ]
+      }
+    },
+    {
+      "full_name": "google-deepmind/alphagenome",
+      "topics": [
+        "genomic-ai",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 873507399,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 8596759,
+        "sources": [
+          "https://github.com/google-deepmind/alphagenome",
+          "https://api.github.com/repos/google-deepmind/alphagenome",
+          "https://deepmind.google/science/alphagenome/"
+        ]
+      }
+    },
+    {
+      "full_name": "sokrypton/ColabFold",
+      "topics": [
+        "protein",
+        "structure-prediction"
+      ],
+      "relevance": [],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 387617756,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 4187522,
+        "sources": [
+          "https://github.com/sokrypton/ColabFold",
+          "https://api.github.com/repos/sokrypton/ColabFold"
+        ]
+      }
+    },
+    {
+      "full_name": "milot-mirdita/MMseqs2-App",
+      "topics": [
+        "homology-search",
+        "protein"
+      ],
+      "relevance": [],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 490633639,
+        "public": true,
+        "archived": false,
+        "fork": true,
+        "owner_id": 63657,
+        "sources": [
+          "https://github.com/milot-mirdita/MMseqs2-App",
+          "https://api.github.com/repos/milot-mirdita/MMseqs2-App"
+        ]
+      }
+    },
+    {
+      "full_name": "Rostlab/ProtTrans",
+      "topics": [
+        "protein",
+        "protein-language-models"
+      ],
+      "relevance": [],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 504454718,
+        "public": true,
+        "archived": false,
+        "fork": true,
+        "owner_id": 4093405,
+        "sources": [
+          "https://github.com/Rostlab/ProtTrans",
+          "https://api.github.com/repos/Rostlab/ProtTrans"
+        ]
+      }
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "topics": [
+        "agents",
+        "orchestration"
+      ],
+      "relevance": [
+        "kuromi",
+        "labhq"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 552661142,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 126733545,
+        "sources": [
+          "https://github.com/langchain-ai/langchain",
+          "https://api.github.com/repos/langchain-ai/langchain"
+        ]
+      }
+    },
+    {
+      "full_name": "hamelsmu/evals-skills",
+      "topics": [
+        "agents",
+        "evaluation"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "kuromi",
+        "labhq"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 1170210179,
+        "public": true,
+        "archived": true,
+        "fork": false,
+        "owner_id": 1483922,
+        "sources": [
+          "https://github.com/hamelsmu/evals-skills",
+          "https://api.github.com/repos/hamelsmu/evals-skills"
+        ]
+      }
+    },
+    {
+      "full_name": "run-llama/llama_index",
+      "topics": [
+        "agents",
+        "retrieval"
+      ],
+      "relevance": [
+        "kuromi",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 560704231,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 130722866,
+        "sources": [
+          "https://github.com/run-llama/llama_index",
+          "https://api.github.com/repos/run-llama/llama_index"
+        ]
+      }
+    },
+    {
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "topics": [
+        "agents",
+        "automation"
+      ],
+      "relevance": [
+        "labhq"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 614765452,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 130738209,
+        "sources": [
+          "https://github.com/Significant-Gravitas/AutoGPT",
+          "https://api.github.com/repos/Significant-Gravitas/AutoGPT"
+        ]
+      }
+    },
+    {
+      "full_name": "yoheinakajima/babyagi",
+      "topics": [
+        "agents",
+        "automation"
+      ],
+      "relevance": [
+        "labhq"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 622737738,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 1701418,
+        "sources": [
+          "https://github.com/yoheinakajima/babyagi",
+          "https://api.github.com/repos/yoheinakajima/babyagi"
+        ]
+      }
+    },
+    {
+      "full_name": "simonw/llm",
+      "topics": [
+        "data-tools",
+        "llm-tools",
+        "security"
+      ],
+      "relevance": [
+        "kuromi",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 622352364,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 9599,
+        "sources": [
+          "https://github.com/simonw/llm",
+          "https://api.github.com/repos/simonw/llm"
+        ]
+      }
+    },
+    {
+      "full_name": "PrefectHQ/fastmcp",
+      "topics": [
+        "agents",
+        "mcp",
+        "workflow"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "kuromi"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 896296825,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 39270919,
+        "sources": [
+          "https://github.com/PrefectHQ/fastmcp",
+          "https://api.github.com/repos/PrefectHQ/fastmcp"
+        ]
+      }
+    },
+    {
+      "full_name": "nextflow-io/nextflow",
+      "topics": [
+        "reproducibility",
+        "workflow"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 9052236,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 6698688,
+        "sources": [
+          "https://github.com/nextflow-io/nextflow",
+          "https://api.github.com/repos/nextflow-io/nextflow"
+        ]
+      }
+    },
+    {
+      "full_name": "snakemake/snakemake",
+      "topics": [
+        "reproducibility",
+        "workflow"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 212840200,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 33450111,
+        "sources": [
+          "https://github.com/snakemake/snakemake",
+          "https://api.github.com/repos/snakemake/snakemake"
+        ]
+      }
+    },
+    {
+      "full_name": "EleutherAI/lm-evaluation-harness",
+      "topics": [
+        "evaluation",
+        "open-models"
+      ],
+      "relevance": [
+        "kuromi",
+        "labhq"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 290909192,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 68924597,
+        "sources": [
+          "https://github.com/EleutherAI/lm-evaluation-harness",
+          "https://api.github.com/repos/EleutherAI/lm-evaluation-harness"
+        ]
+      }
+    },
+    {
+      "full_name": "google-deepmind/alphagenome_research",
+      "topics": [
+        "genomic-ai",
+        "variant-effects"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 1118210574,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 8596759,
+        "sources": [
+          "https://github.com/google-deepmind/alphagenome_research",
+          "https://api.github.com/repos/google-deepmind/alphagenome_research",
+          "https://deepmind.google/science/alphagenome/",
+          "https://github.com/google-deepmind/alphagenome"
+        ]
+      }
+    },
+    {
+      "full_name": "joonan-lab/AnnQ",
+      "topics": [
+        "quality-control",
+        "single-cell"
+      ],
+      "relevance": [
+        "bioinfo-agent",
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 1176723027,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 54629085,
+        "sources": [
+          "https://github.com/joonan-lab/AnnQ",
+          "https://api.github.com/repos/joonan-lab/AnnQ",
+          "https://joonanlab.github.io/tools"
+        ]
+      }
+    },
+    {
+      "full_name": "joonan-lab/IDAP-pipeline",
+      "topics": [
+        "precision-oncology",
+        "therapeutics"
+      ],
+      "relevance": [
+        "yuan"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 1194885643,
+        "public": true,
+        "archived": false,
+        "fork": true,
+        "owner_id": 54629085,
+        "sources": [
+          "https://github.com/joonan-lab/IDAP-pipeline",
+          "https://api.github.com/repos/joonan-lab/IDAP-pipeline",
+          "https://joonanlab.github.io/tools"
+        ]
+      }
+    },
+    {
+      "full_name": "broadinstitute/gatk",
+      "topics": [
+        "genomics",
+        "variant-calling"
+      ],
+      "relevance": [
+        "bioinfo-agent"
+      ],
+      "verification": {
+        "checked_at": "2026-10-01",
+        "status": "verified",
+        "repository_id": 27452807,
+        "public": true,
+        "archived": false,
+        "fork": false,
+        "owner_id": 393552,
+        "sources": [
+          "https://github.com/broadinstitute/gatk",
+          "https://api.github.com/repos/broadinstitute/gatk",
+          "https://www.broadinstitute.org/scientific-community/software/genome-analysis-toolkit-gatk"
+        ]
+      }
+    }
+  ],
+  "collection": {
+    "max_pages": 3,
+    "repo_limit_per_owner": 5,
+    "max_requests": 1000
+  }
+}

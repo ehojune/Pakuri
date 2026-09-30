@@ -1,0 +1,1000 @@
+{
+  "checked_at": "2026-10-01",
+  "api_requests_made": 127,
+  "accounts": [
+    {
+      "login": "lh3",
+      "id": 480346,
+      "type": "User",
+      "name": "Heng Li",
+      "self_reported_company": "DFCI / Harvard / Broad",
+      "profile": "https://github.com/lh3"
+    },
+    {
+      "login": "joonan30",
+      "id": 14087522,
+      "type": "User",
+      "name": "Joon An",
+      "self_reported_company": "Korea University",
+      "profile": "https://github.com/joonan30"
+    },
+    {
+      "login": "harrisongzhang",
+      "id": 67767244,
+      "type": "User",
+      "name": "Harrison Zhang",
+      "self_reported_company": null,
+      "profile": "https://github.com/harrisongzhang"
+    },
+    {
+      "login": "jmiao24",
+      "id": 56059516,
+      "type": "User",
+      "name": "Jiacheng Miao",
+      "self_reported_company": "Stanford University",
+      "profile": "https://github.com/jmiao24"
+    },
+    {
+      "login": "karpathy",
+      "id": 241138,
+      "type": "User",
+      "name": "Andrej",
+      "self_reported_company": null,
+      "profile": "https://github.com/karpathy"
+    },
+    {
+      "login": "brentp",
+      "id": 1739,
+      "type": "User",
+      "name": "Brent Pedersen",
+      "self_reported_company": null,
+      "profile": "https://github.com/brentp"
+    },
+    {
+      "login": "ekg",
+      "id": 145425,
+      "type": "User",
+      "name": "Erik Garrison",
+      "self_reported_company": "University of Tennessee Health Science Center (UTHSC)",
+      "profile": "https://github.com/ekg"
+    },
+    {
+      "login": "ctsa",
+      "id": 1349103,
+      "type": "User",
+      "name": "Chris Saunders",
+      "self_reported_company": null,
+      "profile": "https://github.com/ctsa"
+    },
+    {
+      "login": "pkrusche",
+      "id": 1199561,
+      "type": "User",
+      "name": "Peter Krusche",
+      "self_reported_company": null,
+      "profile": "https://github.com/pkrusche"
+    },
+    {
+      "login": "egor-dolzhenko",
+      "id": 973889,
+      "type": "User",
+      "name": "Egor Dolzhenko",
+      "self_reported_company": "@PacificBiosciences",
+      "profile": "https://github.com/egor-dolzhenko"
+    },
+    {
+      "login": "bw2",
+      "id": 6240170,
+      "type": "User",
+      "name": "Ben Weisburd",
+      "self_reported_company": "Broad Institute",
+      "profile": "https://github.com/bw2"
+    },
+    {
+      "login": "jkbonfield",
+      "id": 2210525,
+      "type": "User",
+      "name": "James Bonfield",
+      "self_reported_company": "Wellcome Trust Sanger Institute",
+      "profile": "https://github.com/jkbonfield"
+    },
+    {
+      "login": "alexdobin",
+      "id": 6960419,
+      "type": "User",
+      "name": "Alexander Dobin",
+      "self_reported_company": "Arc Institute",
+      "profile": "https://github.com/alexdobin"
+    },
+    {
+      "login": "rob-p",
+      "id": 361470,
+      "type": "User",
+      "name": "Rob Patro",
+      "self_reported_company": "University of Maryland",
+      "profile": "https://github.com/rob-p"
+    },
+    {
+      "login": "BenLangmead",
+      "id": 3075483,
+      "type": "User",
+      "name": "Benjamin Langmead",
+      "self_reported_company": "Johns Hopkins University",
+      "profile": "https://github.com/BenLangmead"
+    },
+    {
+      "login": "marcelm",
+      "id": 724864,
+      "type": "User",
+      "name": "Marcel Martin",
+      "self_reported_company": null,
+      "profile": "https://github.com/marcelm"
+    },
+    {
+      "login": "tseemann",
+      "id": 453972,
+      "type": "User",
+      "name": "Torsten Seemann",
+      "self_reported_company": "The University of Melbourne",
+      "profile": "https://github.com/tseemann"
+    },
+    {
+      "login": "shenwei356",
+      "id": 2655946,
+      "type": "User",
+      "name": "Wei Shen",
+      "self_reported_company": "Chongqing Medical University, China",
+      "profile": "https://github.com/shenwei356"
+    },
+    {
+      "login": "falexwolf",
+      "id": 16916678,
+      "type": "User",
+      "name": "Alex Wolf",
+      "self_reported_company": "Lamin",
+      "profile": "https://github.com/falexwolf"
+    },
+    {
+      "login": "ivirshup",
+      "id": 8238804,
+      "type": "User",
+      "name": "Isaac Virshup",
+      "self_reported_company": "CZI",
+      "profile": "https://github.com/ivirshup"
+    },
+    {
+      "login": "adamgayoso",
+      "id": 10859440,
+      "type": "User",
+      "name": "Adam Gayoso",
+      "self_reported_company": "@google-deepmind",
+      "profile": "https://github.com/adamgayoso"
+    },
+    {
+      "login": "sokrypton",
+      "id": 4187522,
+      "type": "User",
+      "name": "Sergey Ovchinnikov",
+      "self_reported_company": null,
+      "profile": "https://github.com/sokrypton"
+    },
+    {
+      "login": "milot-mirdita",
+      "id": 63657,
+      "type": "User",
+      "name": "Milot Mirdita",
+      "self_reported_company": null,
+      "profile": "https://github.com/milot-mirdita"
+    },
+    {
+      "login": "mheinzinger",
+      "id": 49648207,
+      "type": "User",
+      "name": "Michael Heinzinger",
+      "self_reported_company": null,
+      "profile": "https://github.com/mheinzinger"
+    },
+    {
+      "login": "hwchase17",
+      "id": 11986836,
+      "type": "User",
+      "name": "Harrison Chase",
+      "self_reported_company": null,
+      "profile": "https://github.com/hwchase17"
+    },
+    {
+      "login": "hamelsmu",
+      "id": 1483922,
+      "type": "User",
+      "name": "Hamel Husain",
+      "self_reported_company": "Parlance Labs",
+      "profile": "https://github.com/hamelsmu"
+    },
+    {
+      "login": "jerryjliu",
+      "id": 4858925,
+      "type": "User",
+      "name": "Jerry Liu",
+      "self_reported_company": null,
+      "profile": "https://github.com/jerryjliu"
+    },
+    {
+      "login": "Torantulino",
+      "id": 22963551,
+      "type": "User",
+      "name": "Toran Bruce Richards",
+      "self_reported_company": null,
+      "profile": "https://github.com/Torantulino"
+    },
+    {
+      "login": "yoheinakajima",
+      "id": 1701418,
+      "type": "User",
+      "name": "Yohei Nakajima",
+      "self_reported_company": "Untapped Capital",
+      "profile": "https://github.com/yoheinakajima"
+    },
+    {
+      "login": "simonw",
+      "id": 9599,
+      "type": "User",
+      "name": "Simon Willison",
+      "self_reported_company": "Datasette",
+      "profile": "https://github.com/simonw"
+    },
+    {
+      "login": "jlowin",
+      "id": 153965,
+      "type": "User",
+      "name": "Jeremiah Lowin",
+      "self_reported_company": "@PrefectHQ ",
+      "profile": "https://github.com/jlowin"
+    },
+    {
+      "login": "pditommaso",
+      "id": 816968,
+      "type": "User",
+      "name": "Paolo Di Tommaso",
+      "self_reported_company": "Seqera Labs",
+      "profile": "https://github.com/pditommaso"
+    },
+    {
+      "login": "johanneskoester",
+      "id": 1858646,
+      "type": "User",
+      "name": "Johannes Köster",
+      "self_reported_company": "University of Duisburg-Essen",
+      "profile": "https://github.com/johanneskoester"
+    },
+    {
+      "login": "StellaAthena",
+      "id": 15899312,
+      "type": "User",
+      "name": "Stella Biderman",
+      "self_reported_company": "Booz Allen Hamilton, EleutherAI",
+      "profile": "https://github.com/StellaAthena"
+    },
+    {
+      "login": "joonan-lab",
+      "id": 54629085,
+      "type": "Organization",
+      "name": "joonanlab",
+      "self_reported_company": null,
+      "profile": "https://github.com/joonan-lab"
+    },
+    {
+      "login": "vgteam",
+      "id": 15925452,
+      "type": "Organization",
+      "name": null,
+      "self_reported_company": null,
+      "profile": "https://github.com/vgteam"
+    },
+    {
+      "login": "Illumina",
+      "id": 11462464,
+      "type": "Organization",
+      "name": "Illumina",
+      "self_reported_company": null,
+      "profile": "https://github.com/Illumina"
+    },
+    {
+      "login": "broadinstitute",
+      "id": 393552,
+      "type": "Organization",
+      "name": "Broad Institute",
+      "self_reported_company": null,
+      "profile": "https://github.com/broadinstitute"
+    },
+    {
+      "login": "samtools",
+      "id": 1518450,
+      "type": "Organization",
+      "name": null,
+      "self_reported_company": null,
+      "profile": "https://github.com/samtools"
+    },
+    {
+      "login": "COMBINE-lab",
+      "id": 8410750,
+      "type": "Organization",
+      "name": "COMBINE lab",
+      "self_reported_company": null,
+      "profile": "https://github.com/COMBINE-lab"
+    },
+    {
+      "login": "scverse",
+      "id": 95305807,
+      "type": "Organization",
+      "name": "scverse",
+      "self_reported_company": null,
+      "profile": "https://github.com/scverse"
+    },
+    {
+      "login": "google-deepmind",
+      "id": 8596759,
+      "type": "Organization",
+      "name": "Google DeepMind",
+      "self_reported_company": null,
+      "profile": "https://github.com/google-deepmind"
+    },
+    {
+      "login": "Rostlab",
+      "id": 4093405,
+      "type": "Organization",
+      "name": "Rostlab",
+      "self_reported_company": null,
+      "profile": "https://github.com/Rostlab"
+    },
+    {
+      "login": "langchain-ai",
+      "id": 126733545,
+      "type": "Organization",
+      "name": "LangChain",
+      "self_reported_company": null,
+      "profile": "https://github.com/langchain-ai"
+    },
+    {
+      "login": "run-llama",
+      "id": 130722866,
+      "type": "Organization",
+      "name": "LlamaIndex",
+      "self_reported_company": null,
+      "profile": "https://github.com/run-llama"
+    },
+    {
+      "login": "Significant-Gravitas",
+      "id": 130738209,
+      "type": "Organization",
+      "name": "AutoGPT",
+      "self_reported_company": null,
+      "profile": "https://github.com/Significant-Gravitas"
+    },
+    {
+      "login": "PrefectHQ",
+      "id": 39270919,
+      "type": "Organization",
+      "name": "Prefect",
+      "self_reported_company": null,
+      "profile": "https://github.com/PrefectHQ"
+    },
+    {
+      "login": "nextflow-io",
+      "id": 6698688,
+      "type": "Organization",
+      "name": null,
+      "self_reported_company": null,
+      "profile": "https://github.com/nextflow-io"
+    },
+    {
+      "login": "snakemake",
+      "id": 33450111,
+      "type": "Organization",
+      "name": "Snakemake",
+      "self_reported_company": null,
+      "profile": "https://github.com/snakemake"
+    },
+    {
+      "login": "EleutherAI",
+      "id": 68924597,
+      "type": "Organization",
+      "name": "EleutherAI",
+      "self_reported_company": null,
+      "profile": "https://github.com/EleutherAI"
+    }
+  ],
+  "repositories": [
+    {
+      "full_name": "lh3/minimap2",
+      "id": 97612481,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "lh3/miniprot",
+      "id": 521097490,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "joonan30/microgpt_for_biologist",
+      "id": 1224922637,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "joonan-lab/cwas",
+      "id": 251275064,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "harrisongzhang/TheVirtualBiotech",
+      "id": 1331626452,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "jmiao24/Paper2Agent",
+      "id": 1053373003,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "karpathy/nanoGPT",
+      "id": 582822129,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "karpathy/nanochat",
+      "id": 1075431749,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "brentp/mosdepth",
+      "id": 101316174,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "brentp/cyvcf2",
+      "id": 40605275,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "vgteam/vg",
+      "id": 24727800,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "Illumina/strelka",
+      "id": 71189875,
+      "public": true,
+      "archived": true,
+      "fork": false
+    },
+    {
+      "full_name": "Illumina/manta",
+      "id": 10390195,
+      "public": true,
+      "archived": true,
+      "fork": false
+    },
+    {
+      "full_name": "Illumina/hap.py",
+      "id": 34729807,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "Illumina/ExpansionHunter",
+      "id": 73416041,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "broadinstitute/str-analysis",
+      "id": 379382439,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "samtools/htslib",
+      "id": 4339773,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "alexdobin/STAR",
+      "id": 17778869,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "COMBINE-lab/salmon",
+      "id": 32549942,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "BenLangmead/bowtie2",
+      "id": 7263010,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "marcelm/cutadapt",
+      "id": 4577614,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "tseemann/abricate",
+      "id": 21923637,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "shenwei356/seqkit",
+      "id": 52715040,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "scverse/scanpy",
+      "id": 80342493,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "scverse/anndata",
+      "id": 100038377,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "scverse/scvi-tools",
+      "id": 102567256,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "google-deepmind/alphagenome",
+      "id": 873507399,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "sokrypton/ColabFold",
+      "id": 387617756,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "milot-mirdita/MMseqs2-App",
+      "id": 490633639,
+      "public": true,
+      "archived": false,
+      "fork": true
+    },
+    {
+      "full_name": "Rostlab/ProtTrans",
+      "id": 504454718,
+      "public": true,
+      "archived": false,
+      "fork": true
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "id": 552661142,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "hamelsmu/evals-skills",
+      "id": 1170210179,
+      "public": true,
+      "archived": true,
+      "fork": false
+    },
+    {
+      "full_name": "run-llama/llama_index",
+      "id": 560704231,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "id": 614765452,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "yoheinakajima/babyagi",
+      "id": 622737738,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "simonw/llm",
+      "id": 622352364,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "PrefectHQ/fastmcp",
+      "id": 896296825,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "nextflow-io/nextflow",
+      "id": 9052236,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "snakemake/snakemake",
+      "id": 212840200,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "EleutherAI/lm-evaluation-harness",
+      "id": 290909192,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "google-deepmind/alphagenome_research",
+      "id": 1118210574,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "joonan-lab/AnnQ",
+      "id": 1176723027,
+      "public": true,
+      "archived": false,
+      "fork": false
+    },
+    {
+      "full_name": "joonan-lab/IDAP-pipeline",
+      "id": 1194885643,
+      "public": true,
+      "archived": false,
+      "fork": true
+    },
+    {
+      "full_name": "broadinstitute/gatk",
+      "id": 27452807,
+      "public": true,
+      "archived": false,
+      "fork": false
+    }
+  ],
+  "project_relationships": [
+    {
+      "login": "lh3",
+      "repository": "lh3/minimap2",
+      "relationship": "owner",
+      "source": "https://github.com/lh3/minimap2"
+    },
+    {
+      "login": "lh3",
+      "repository": "lh3/miniprot",
+      "relationship": "owner",
+      "source": "https://github.com/lh3/miniprot"
+    },
+    {
+      "login": "joonan30",
+      "repository": "joonan30/microgpt_for_biologist",
+      "relationship": "owner",
+      "source": "https://github.com/joonan30/microgpt_for_biologist"
+    },
+    {
+      "login": "joonan30",
+      "repository": "joonan-lab/cwas",
+      "relationship": "lab_project",
+      "source": "https://joonanlab.github.io/tools"
+    },
+    {
+      "login": "harrisongzhang",
+      "repository": "harrisongzhang/TheVirtualBiotech",
+      "relationship": "owner",
+      "source": "https://github.com/harrisongzhang/TheVirtualBiotech"
+    },
+    {
+      "login": "jmiao24",
+      "repository": "jmiao24/Paper2Agent",
+      "relationship": "owner",
+      "source": "https://github.com/jmiao24/Paper2Agent"
+    },
+    {
+      "login": "karpathy",
+      "repository": "karpathy/nanoGPT",
+      "relationship": "owner",
+      "source": "https://github.com/karpathy/nanoGPT"
+    },
+    {
+      "login": "karpathy",
+      "repository": "karpathy/nanochat",
+      "relationship": "owner",
+      "source": "https://github.com/karpathy/nanochat"
+    },
+    {
+      "login": "brentp",
+      "repository": "brentp/mosdepth",
+      "relationship": "owner",
+      "source": "https://github.com/brentp/mosdepth"
+    },
+    {
+      "login": "brentp",
+      "repository": "brentp/cyvcf2",
+      "relationship": "owner",
+      "source": "https://github.com/brentp/cyvcf2"
+    },
+    {
+      "login": "ekg",
+      "repository": "vgteam/vg",
+      "relationship": "contributor",
+      "contributions_observed": 2859,
+      "source": "https://api.github.com/repos/vgteam/vg/contributors"
+    },
+    {
+      "login": "ctsa",
+      "repository": "Illumina/strelka",
+      "relationship": "contributor",
+      "contributions_observed": 1925,
+      "source": "https://api.github.com/repos/Illumina/strelka/contributors?per_page=100"
+    },
+    {
+      "login": "ctsa",
+      "repository": "Illumina/manta",
+      "relationship": "contributor",
+      "contributions_observed": 1939,
+      "source": "https://api.github.com/repos/Illumina/manta/contributors?per_page=100"
+    },
+    {
+      "login": "pkrusche",
+      "repository": "Illumina/hap.py",
+      "relationship": "contributor",
+      "contributions_observed": 75,
+      "source": "https://api.github.com/repos/Illumina/hap.py/contributors"
+    },
+    {
+      "login": "egor-dolzhenko",
+      "repository": "Illumina/ExpansionHunter",
+      "relationship": "contributor",
+      "contributions_observed": 59,
+      "source": "https://api.github.com/repos/Illumina/ExpansionHunter/contributors"
+    },
+    {
+      "login": "bw2",
+      "repository": "broadinstitute/str-analysis",
+      "relationship": "contributor",
+      "contributions_observed": 1337,
+      "source": "https://api.github.com/repos/broadinstitute/str-analysis/contributors?per_page=100"
+    },
+    {
+      "login": "jkbonfield",
+      "repository": "samtools/htslib",
+      "relationship": "contributor",
+      "contributions_observed": 868,
+      "source": "https://api.github.com/repos/samtools/htslib/contributors?per_page=100"
+    },
+    {
+      "login": "alexdobin",
+      "repository": "alexdobin/STAR",
+      "relationship": "owner",
+      "source": "https://github.com/alexdobin/STAR"
+    },
+    {
+      "login": "rob-p",
+      "repository": "COMBINE-lab/salmon",
+      "relationship": "contributor",
+      "contributions_observed": 1098,
+      "source": "https://api.github.com/repos/COMBINE-lab/salmon/contributors?per_page=100"
+    },
+    {
+      "login": "BenLangmead",
+      "repository": "BenLangmead/bowtie2",
+      "relationship": "owner",
+      "source": "https://github.com/BenLangmead/bowtie2"
+    },
+    {
+      "login": "marcelm",
+      "repository": "marcelm/cutadapt",
+      "relationship": "owner",
+      "source": "https://github.com/marcelm/cutadapt"
+    },
+    {
+      "login": "tseemann",
+      "repository": "tseemann/abricate",
+      "relationship": "owner",
+      "source": "https://github.com/tseemann/abricate"
+    },
+    {
+      "login": "shenwei356",
+      "repository": "shenwei356/seqkit",
+      "relationship": "owner",
+      "source": "https://github.com/shenwei356/seqkit"
+    },
+    {
+      "login": "falexwolf",
+      "repository": "scverse/scanpy",
+      "relationship": "contributor",
+      "contributions_observed": 1279,
+      "source": "https://api.github.com/repos/scverse/scanpy/contributors?per_page=100"
+    },
+    {
+      "login": "ivirshup",
+      "repository": "scverse/anndata",
+      "relationship": "contributor",
+      "contributions_observed": 436,
+      "source": "https://api.github.com/repos/scverse/anndata/contributors?per_page=100"
+    },
+    {
+      "login": "adamgayoso",
+      "repository": "scverse/scvi-tools",
+      "relationship": "contributor",
+      "contributions_observed": 2038,
+      "source": "https://api.github.com/repos/scverse/scvi-tools/contributors"
+    },
+    {
+      "login": "adamgayoso",
+      "repository": "google-deepmind/alphagenome",
+      "relationship": "contributor",
+      "contributions_observed": 15,
+      "source": "https://api.github.com/repos/google-deepmind/alphagenome/contributors?per_page=100"
+    },
+    {
+      "login": "sokrypton",
+      "repository": "sokrypton/ColabFold",
+      "relationship": "owner",
+      "source": "https://github.com/sokrypton/ColabFold"
+    },
+    {
+      "login": "milot-mirdita",
+      "repository": "milot-mirdita/MMseqs2-App",
+      "relationship": "owner",
+      "source": "https://github.com/milot-mirdita/MMseqs2-App"
+    },
+    {
+      "login": "mheinzinger",
+      "repository": "Rostlab/ProtTrans",
+      "relationship": "contributor",
+      "contributions_observed": 18,
+      "source": "https://api.github.com/repos/Rostlab/ProtTrans/contributors?per_page=100"
+    },
+    {
+      "login": "hwchase17",
+      "repository": "langchain-ai/langchain",
+      "relationship": "contributor",
+      "contributions_observed": 1235,
+      "source": "https://api.github.com/repos/langchain-ai/langchain/contributors?per_page=100"
+    },
+    {
+      "login": "hamelsmu",
+      "repository": "hamelsmu/evals-skills",
+      "relationship": "owner",
+      "source": "https://github.com/hamelsmu/evals-skills"
+    },
+    {
+      "login": "jerryjliu",
+      "repository": "run-llama/llama_index",
+      "relationship": "contributor",
+      "contributions_observed": 923,
+      "source": "https://api.github.com/repos/run-llama/llama_index/contributors?per_page=100"
+    },
+    {
+      "login": "Torantulino",
+      "repository": "Significant-Gravitas/AutoGPT",
+      "relationship": "contributor",
+      "contributions_observed": 509,
+      "source": "https://api.github.com/repos/Significant-Gravitas/AutoGPT/contributors?per_page=100"
+    },
+    {
+      "login": "yoheinakajima",
+      "repository": "yoheinakajima/babyagi",
+      "relationship": "owner",
+      "source": "https://github.com/yoheinakajima/babyagi"
+    },
+    {
+      "login": "simonw",
+      "repository": "simonw/llm",
+      "relationship": "owner",
+      "source": "https://github.com/simonw/llm"
+    },
+    {
+      "login": "jlowin",
+      "repository": "PrefectHQ/fastmcp",
+      "relationship": "contributor",
+      "contributions_observed": 2688,
+      "source": "https://api.github.com/repos/PrefectHQ/fastmcp/contributors?per_page=100"
+    },
+    {
+      "login": "pditommaso",
+      "repository": "nextflow-io/nextflow",
+      "relationship": "contributor",
+      "contributions_observed": 6453,
+      "source": "https://api.github.com/repos/nextflow-io/nextflow/contributors?per_page=100"
+    },
+    {
+      "login": "johanneskoester",
+      "repository": "snakemake/snakemake",
+      "relationship": "contributor",
+      "contributions_observed": 3457,
+      "source": "https://api.github.com/repos/snakemake/snakemake/contributors?per_page=100"
+    },
+    {
+      "login": "StellaAthena",
+      "repository": "EleutherAI/lm-evaluation-harness",
+      "relationship": "contributor",
+      "contributions_observed": 199,
+      "source": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/contributors"
+    }
+  ],
+  "rejected_or_corrected": [
+    {
+      "input": "torstenseemann",
+      "result": "404; verified correct account tseemann"
+    },
+    {
+      "input": "hamel",
+      "result": "Organization unrelated to Hamel Husain; verified hamelsmu"
+    },
+    {
+      "input": "StellaBiderman",
+      "result": "404; verified StellaAthena"
+    },
+    {
+      "input": "bw2/str-analysis",
+      "result": "404; official public repository broadinstitute/str-analysis"
+    },
+    {
+      "input": "jlowin/fastmcp",
+      "result": "API redirects to PrefectHQ/fastmcp; numeric repository ID retained"
+    }
+  ]
+}
