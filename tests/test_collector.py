@@ -225,6 +225,43 @@ class CollectorTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.run_collect(config(people=[person()]), now=BASE.replace(tzinfo=None))
 
+    def test_live_clock_accepts_activity_created_during_long_collection(self):
+        current = [BASE]
+        targets = config(people=[person()], repositories=[{"full_name": "alice/tool"}])
+        def delayed_events(_path):
+            current[0] = BASE + timedelta(minutes=10)
+            return [push("1", utc(BASE + timedelta(minutes=8))),
+                    push("2", utc(BASE + timedelta(minutes=30)))]
+        routes = {"/users/alice/events/public": delayed_events,
+                  "/repos/alice/tool": repository(),
+                  "/repos/alice/tool/commits": [commit(SHA1, utc(BASE + timedelta(minutes=8)))]}
+        # Start this regression with the event source so the clock advances before
+        # default-branch metadata is polled, as in the observed long-running run.
+        state = State(self.state_path)
+        state.set_setting("scheduler_cursor", "repo:alice/tool")
+        state.close()
+        result = collect(targets, self.state_path, client=FakeClient(routes), now=BASE, clock=lambda: current[0])
+        self.assertEqual({item["kind"] for item in result["items"]}, {"push", "commit"})
+        self.assertTrue(all(item["observed_at"] == utc(current[0]) for item in result["items"]))
+        self.assertEqual(result["generated_at"], utc(BASE + timedelta(minutes=10)))
+        self.assertEqual(result["coverage"]["collection_elapsed_seconds"], 600)
+        self.assertEqual(result["coverage"]["invalid_records_skipped"], 1)
+        state = State(self.state_path)
+        self.assertEqual(state.source("user_events:alice")["initialized_at"], utc(BASE))
+        self.assertEqual(state.source("user_events:alice")["last_success"], utc(current[0]))
+        state.close()
+
+    def test_output_window_uses_completion_clock(self):
+        current = [BASE]
+        targets = config(people=[person()])
+        def delayed_events(_path):
+            current[0] = BASE + timedelta(minutes=10)
+            return []
+        # Stored activity at the old window edge expires when collection finishes.
+        self.run_collect(targets, {"/users/alice/events/public": [push("1", utc(BASE - timedelta(hours=23, minutes=55)))]}, now=BASE - timedelta(hours=23, minutes=55))
+        result = collect(targets, self.state_path, client=FakeClient({"/users/alice/events/public": delayed_events}), now=BASE, clock=lambda: current[0])
+        self.assertEqual(result["items"], [])
+
     def test_backward_clock_preserves_checkpoint(self):
         self.run_collect(config(people=[person()]))
         result = self.run_collect(config(people=[person()]), now=BASE - timedelta(hours=1))

@@ -67,8 +67,9 @@ def load_config(path):
 
 
 class Collector:
-    def __init__(self, config, state, client, now, hours):
+    def __init__(self, config, state, client, now, hours, clock=None):
         self.config, self.state, self.client, self.now, self.hours = config, state, client, now, hours
+        self.clock = clock or (lambda: now)
         self.moment = utc(now)
         self.cutoff = utc(now - timedelta(hours=hours))
         self.options = config["collection"]
@@ -87,17 +88,18 @@ class Collector:
 
     def item(self, identity, kind, title, url, published, actor, repo, baseline, target, **extra):
         when = timestamp(published)
-        if when is None or when > self.now + timedelta(minutes=5):
+        observed = self.clock().astimezone(timezone.utc)
+        if when is None or when > observed + timedelta(minutes=5):
             self.bad_records += 1
             return None
         return {"id": identity, "kind": kind, "title": safe_title(title), "url": url,
-                "published_at": utc(when), "observed_at": self.moment,
+                "published_at": utc(when), "observed_at": utc(observed),
                 "actor": actor if valid_login(actor) else "", "repo": repo,
                 "baseline": bool(baseline), "topics": target.get("topics", []),
                 "relevance": target.get("relevance", []), **extra}
 
     def save(self, values):
-        self.state.save_items([value for value in values if value], self.moment)
+        self.state.save_items([value for value in values if value], utc(self.clock()))
 
     def commit_item(self, row, repo, baseline, target):
         row = project_commit(row)
@@ -159,12 +161,13 @@ class Collector:
 
     def pages(self, source, endpoint, query, consume, *, event_feed=False, stop_before=None, scope_done=None):
         info = self.state.source(source)
+        source_started = self.clock().astimezone(timezone.utc)
         report = {"source": source, "baseline": info is None, "status": "ok", "pages": 0,
                   "records_received": 0, "checkpoint_before": info["last_success"] if info else None}
         prior = timestamp(info["last_success"] or info["initialized_at"]) if info else None
-        report["gap_hours"] = round(max(0, (self.now - prior).total_seconds() / 3600), 2) if prior else None
-        if event_feed and prior and self.now - prior > timedelta(days=30):
-            report["retention_gap_hours"] = round((self.now - prior - timedelta(days=30)).total_seconds() / 3600, 2)
+        report["gap_hours"] = round(max(0, (source_started - prior).total_seconds() / 3600), 2) if prior else None
+        if event_feed and prior and source_started - prior > timedelta(days=30):
+            report["retention_gap_hours"] = round((source_started - prior - timedelta(days=30)).total_seconds() / 3600, 2)
             report["warnings"] = ["checkpoint predates the 30-day Events API retention; omitted older activity cannot be recovered from this feed"]
         self.sources.append(report)
         limit = min(3, self.options["max_pages"]) if event_feed else self.options["max_pages"]
@@ -183,7 +186,7 @@ class Collector:
                 if not response.deferred and info is None:
                     # Baseline completion and successful scan checkpoint are separate.
                     # Partial snapshots never repeatedly rebaseline genuinely new data.
-                    self.state.initialize(source, self.moment)
+                    self.state.initialize(source, utc(source_started))
                 if response.deferred:
                     report["status"] = "deferred"
                     report["reason"] = "X-Poll-Interval not elapsed; cached public metadata reused"
@@ -206,8 +209,9 @@ class Collector:
                 report["status"] = "partial"
                 report["reason"] = "configured page cap reached; checkpoint unchanged"
             if complete and not deferred:
-                self.state.checkpoint(source, self.moment)
-                report["checkpoint_after"] = self.moment
+                completed_at = utc(self.clock())
+                self.state.checkpoint(source, completed_at)
+                report["checkpoint_after"] = completed_at
         except GitHubError as exc:
             report["status"] = "failed"
             report["reason"] = exc.code
@@ -380,6 +384,8 @@ class Collector:
                 ordered.append(added)
         for key in sorted(set(jobs) - done):
             self.sources.append({"source": key, "status": "skipped", "reason": "request budget or rate control"})
+        finished = self.clock().astimezone(timezone.utc)
+        self.cutoff = utc(finished - timedelta(hours=self.hours))
         all_items = self.state.output_items(self.cutoff)
         # Bound the consumer JSON while leaving every compact observation in SQLite.
         priority = {"release": 0, "new_repo": 1, "push": 2, "commit": 3, "repository_discovered": 4}
@@ -390,9 +396,11 @@ class Collector:
         status = "partial" if issues else "ok"
         if issues and complete == 0 and not items:
             status = "error"
-        return {"schema_version": 1, "generated_at": self.moment, "window_hours": self.hours,
+        return {"schema_version": 1, "generated_at": utc(finished), "window_hours": self.hours,
                 "status": status, "items": items, "errors": self.errors,
                 "coverage": {"sources": self.sources, "requests": self.client.requests,
+                             "collection_started_at": self.moment,
+                             "collection_elapsed_seconds": round(max(0, (finished - self.now).total_seconds()), 2),
                              "cache_hits": self.client.cache_hits, "rate_limit": self.client.rate,
                              "people": len(self.config["people"]), "organizations": len(self.config["organizations"]),
                              "curated_repositories": len(self.config["repositories"]),
@@ -416,14 +424,18 @@ class Collector:
                                              "A successful collection is a bounded snapshot, not proof of complete GitHub history"]}}
 
 
-def collect(config, state_path, *, client=None, now=None, hours=24, max_requests=None, output_path=None):
+def collect(config, state_path, *, client=None, now=None, hours=24, max_requests=None, output_path=None, clock=None):
     config = validate_config(config)
     if isinstance(hours, bool) or not isinstance(hours, int) or not 1 <= hours <= 720:
         raise ValueError("hours must be an integer from 1 to 720")
-    now = now or datetime.now(timezone.utc)
+    explicit_now = now is not None
+    now = now or (clock() if clock is not None else datetime.now(timezone.utc))
     if now.tzinfo is None:
         raise ValueError("collection clock must have a timezone")
     now = now.astimezone(timezone.utc)
+    # Production polls use wall time throughout a long collection. Explicit now
+    # remains a fixed deterministic clock unless a test supplies an advancing one.
+    clock = clock or ((lambda: now) if explicit_now else (lambda: datetime.now(timezone.utc)))
     with writer_lock(state_path):
         state = State(state_path)
         try:
@@ -439,17 +451,17 @@ def collect(config, state_path, *, client=None, now=None, hours=24, max_requests
             if client is None:
                 options = config["collection"]
                 client = GitHubClient(state, max_requests=max_requests or options["max_requests"],
-                                      reserve=options["rate_limit_reserve"], timeout=options["request_timeout_seconds"], now=lambda: now)
+                                      reserve=options["rate_limit_reserve"], timeout=options["request_timeout_seconds"], now=clock)
             elif hasattr(client, "state"):
                 client.state = state
             if max_requests is not None:
                 if isinstance(max_requests, bool) or not isinstance(max_requests, int) or not 1 <= max_requests <= 5000:
                     raise ValueError("max_requests must be from 1 to 5000")
                 client.max_requests = max_requests
-            result = Collector(config, state, client, now, hours).run()
+            result = Collector(config, state, client, now, hours, clock=clock).run()
             result["coverage"]["cache_retention_days"] = config["collection"]["cache_retention_days"]
             result["coverage"]["cache_entries_pruned"] = deleted_cache
-            state.set_setting("last_run_at", utc(now))
+            state.set_setting("last_run_at", result["generated_at"])
             if output_path is not None:
                 # Publication stays inside the collection's single-writer lock.
                 atomic_write_json(output_path, result)

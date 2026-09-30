@@ -9,7 +9,7 @@ python -m pakuri collect --config targets.json --output data/latest.json --hours
 | JSON field | Meaning |
 |---|---|
 | schema_version | 1 |
-| generated_at | UTC ISO clock for this collection snapshot |
+| generated_at | UTC ISO completion clock for this collection snapshot |
 | window_hours | Requested rolling observation window |
 | status | Collector health; consumers must display partial/failure/stale state |
 | items | Compact public metadata, persistent stable IDs |
