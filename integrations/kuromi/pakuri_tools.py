@@ -1,4 +1,4 @@
-"""Read private Pakuri metadata; only successful morning delivery writes a ledger."""
+"""Read the local Star-seeker cache; confirmed morning delivery writes a ledger."""
 from __future__ import annotations
 
 from contextlib import contextmanager, ExitStack
@@ -251,7 +251,7 @@ def _section(activity, delivered, now):
     state = activity["status"]
     if state in {"missing", "invalid", "stale", "error", "failed"}:
         notice = " ".join(notices) or "관측 결과를 읽지 못했습니다. 수집 상태를 확인해주세요."
-        return "*Pakuri 개발 활동*\n" + notice, []
+        return "*Pakuri · Star-seeker*\n" + notice, []
     cutoff = now - timedelta(hours=activity["window_hours"])
     rows = [row for row in activity["items"] if not row["baseline"] and
             row["id"] not in delivered and max(_time(row["published_at"]),
@@ -268,7 +268,7 @@ def _section(activity, delivered, now):
             break
     rows = selected
     if not rows:
-        return ("*Pakuri 개발 활동*\n" + " ".join(notices), []) if notices else ("", [])
+        return ("*Pakuri · Star-seeker*\n" + " ".join(notices), []) if notices else ("", [])
     topics = list(dict.fromkeys(topic for row in rows for topic in row["topics"]))[:4]
     changes = ", ".join(f"{label} {sum(row['kind'] == kind for row in rows)}건" for kind, label in (
         ("release", "릴리스"), ("push", "push"), ("commit", "커밋"))
@@ -276,7 +276,7 @@ def _section(activity, delivered, now):
     overview = "관측 변화: " + (", ".join(_slack(topic) for topic in topics) or "공개 개발 도구")
     if changes:
         overview += " — " + changes
-    lines = ["*Pakuri 개발 활동*", overview] + notices
+    lines = ["*Pakuri · Star-seeker*", overview] + notices
     labels = {"release": "릴리스", "push": "push", "commit": "커밋",
               "repo": "저장소", "new_repo": "새 저장소", "repository": "저장소"}
     for row in rows:
@@ -314,14 +314,14 @@ async def post_briefing(slack, *, channel, text, project_path="", now=None):
             stack.enter_context(_delivery_lock(lock))
         except (OSError, ValueError):
             return await _post_confirmed(slack, channel, text +
-                "\n\n*Pakuri 개발 활동*\n발송 상태를 확인하지 못해 활동 항목을 생략했습니다.")
+                "\n\n*Pakuri · Star-seeker*\n발송 상태를 확인하지 못해 활동 항목을 생략했습니다.")
         activity = read_activity(project_path, limit=_MAX_ITEMS, now=now, _for_delivery=True)
         try:
             delivered = _ledger(ledger, now)
             section, ids = _section(activity, delivered, now)
         except (OSError, UnicodeError, ValueError, TypeError, RecursionError):
             delivered, ids = {}, []
-            section = "*Pakuri 개발 활동*\n발송 기록을 읽지 못해 활동 항목을 생략했습니다."
+            section = "*Pakuri · Star-seeker*\n발송 기록을 읽지 못해 활동 항목을 생략했습니다."
         outgoing = text + ("\n\n" + section if section else "")
         result = await _post_confirmed(slack, channel, outgoing)
         if ids:

@@ -8,3 +8,4 @@ Lookup only. Start with the project README for routine use.
 - [Project context](project-context.md): repository observations used for relevance suggestions.
 - [Validation](validation.md): checks performed and remaining limits.
 - [Kuromi integration](kuromi-integration.md): local bridge and activation state.
+- [Public-release review](public-release.md): publishable scope, history checks and licensing.

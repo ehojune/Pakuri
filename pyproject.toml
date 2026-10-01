@@ -5,7 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pakuri"
 version = "0.1.0"
-description = "Private, local observer of public GitHub development metadata"
+description = "Star-seeker: learn from public development in AI agents, biology and bioinformatics"
+license = {file = "LICENSE"}
 requires-python = ">=3.12"
 dependencies = []
 

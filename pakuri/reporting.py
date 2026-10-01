@@ -41,7 +41,7 @@ def render(payload, limit=8):
         raise ValueError("Unsupported schema_version")
     stamp = safe_text(payload.get("generated_at"), 32)
     status = safe_text(payload.get("status", "error"), 16)
-    lines = [f"Pakuri · {stamp} · {status}"]
+    lines = [f"Pakuri · Star-seeker · {stamp} · {status}"]
     items = select_items(payload, max(1, min(limit, 50)))
     if status != "ok":
         lines.append("수집 제한·실패가 있습니다. coverage와 errors에서 범위를 확인하세요.")
