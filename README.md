@@ -63,6 +63,8 @@ python -m pakuri collect --config my-targets.json --output data/latest.json --ho
 
 ## kuromi와 운영
 
+Claude Code와 Slack 기반 AI 비서 kuromi가 궁금하다면 [공개 저장소](https://github.com/ehojune/kuromi)를 참고하면 된다.
+
 로컬 kuromi의 `.env`에 `PAKURI_PATH`를 이 폴더의 절대 경로로 지정한다. `pakuri_activity`는 캐시를 읽는다. 조회는 발송 기록을 소비하지 않는다. 아침 브리핑은 포함한 ID만 Slack 전송 성공 뒤 기록한다.
 
 ```powershell
