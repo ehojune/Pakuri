@@ -50,6 +50,6 @@ Get-ScheduledTask -TaskName Pakuri-Collect
 
 매시간 및 로그인 때 수집한다. PC가 켜져 있고 해당 사용자가 로그인한 동안 동작하며, 놓친 실행은 켜진 뒤 재개한다. 로그와 상태는 `data/`에 있다. 중지: `Disable-ScheduledTask -TaskName Pakuri-Collect`.
 
-공개 준비 범위는 코드·참고 지도·검증 근거·kuromi 연결 방식이다. 인증·수집 결과·발송 기록은 로컬에 둔다. kuromi의 별도 AI 뉴스 작업은 독립적으로 진행한다.
+코드·참고 지도·검증 근거·kuromi 연결 방식을 MIT로 공개한다. 인증·수집 결과·발송 기록은 로컬에 둔다. kuromi의 별도 AI 뉴스 작업은 독립적으로 진행한다.
 
 [MIT](LICENSE) · [다음 할 일](NEXT.md) · [결정 기록](DECISIONS.md) · [실행 검증](docs/reference/validation.md) · [프로젝트 참고 근거](docs/reference/project-context.md)

@@ -1,6 +1,6 @@
 # 다음 할 일
 
-먼저 [공개 검토](docs/reference/public-release.md)를 확인하고 공개 전환·라이선스를 결정한다.
+MIT 공개 완료. [공개 검토·전환 기록](docs/reference/public-release.md).
 
 | 순서 | 완료 기준 |
 |---|---|
