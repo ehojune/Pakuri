@@ -1,10 +1,12 @@
-# Pakuri
+# Pakuri · Star-seeker
 
-AI agent·생물학·생물정보학 개발자의 **공개 GitHub 활동**을 살펴 좋은 주제와 개발 방식을 참고한다. 이름은 ‘베껴온다’에서 왔다. 원문 메타데이터를 기록하며 코드를 가져와 실행하지 않는다.
+좋은 개발자의 발자취를 읽고 다음에 만들 것을 찾는다.
+
+AI agent·생물학·생물정보학 개발자의 **공개 GitHub 활동**에서 주제와 개발 방식을 배운다. 새 저장소·커밋·push·릴리스를 날짜와 원문 링크로 모은다. ‘Pakuri’는 참고해 온다는 뜻, ‘Star-seeker’의 별은 배울 만한 개발자와 프로젝트를 뜻한다. GitHub star 수로 순위를 매기지 않는다.
 
 ```mermaid
 flowchart LR
-    G[검증한 개인·조직·저장소] --> C[공개 GitHub 수집]
+    G[배움의 지도: 개인·조직·저장소] --> C[공개 GitHub 활동 읽기]
     C --> S[체크포인트·중복 제거]
     S --> J[latest.json]
     J --> K[kuromi 조회·아침 브리핑]
@@ -21,9 +23,9 @@ python -m pakuri report --input data/latest.json
 python -m unittest discover -s tests -v
 ```
 
-인증은 `GITHUB_TOKEN`/`GH_TOKEN` 또는 로컬 `gh auth token`을 쓴다. 토큰은 저장하지 않는다. `targets.json`에 검증한 명단과 지정 저장소가 있다. 개인·조직은 따로 센다. 계정 확인과 현재 소속 확인도 구분한다. [검증 근거](docs/reference/identities.md)
+인증은 `GITHUB_TOKEN`/`GH_TOKEN` 또는 로컬 `gh auth token`을 쓴다. 토큰은 저장하지 않는다. `targets.json`은 개인 34명·조직 16개·지정 저장소 44개의 참고 지도다. 계정 확인과 현재 소속 확인을 구분한다. [선정·검증 근거](docs/reference/identities.md)
 
-## 관측과 보고
+## 별의 발자취 읽기
 
 | 기록 | 의미 |
 |---|---|
@@ -48,6 +50,6 @@ Get-ScheduledTask -TaskName Pakuri-Collect
 
 매시간 및 로그인 때 수집한다. PC가 켜져 있고 해당 사용자가 로그인한 동안 동작하며, 놓친 실행은 켜진 뒤 재개한다. 로그와 상태는 `data/`에 있다. 중지: `Disable-ScheduledTask -TaskName Pakuri-Collect`.
 
-Pakuri는 개발 활동을 담당한다. kuromi의 별도 AI 뉴스 작업은 계속 독립적으로 진행한다. 비공개 명단·인증·수집 결과·발송 기록은 kuromi 공개 저장소에 넣지 않는다.
+공개 준비 범위는 코드·참고 지도·검증 근거·kuromi 연결 방식이다. 인증·수집 결과·발송 기록은 로컬에 둔다. kuromi의 별도 AI 뉴스 작업은 독립적으로 진행한다.
 
-[다음 할 일](NEXT.md) · [결정 기록](DECISIONS.md) · [실행 검증](docs/reference/validation.md) · [프로젝트 참고 근거](docs/reference/project-context.md)
+[MIT](LICENSE) · [다음 할 일](NEXT.md) · [결정 기록](DECISIONS.md) · [실행 검증](docs/reference/validation.md) · [프로젝트 참고 근거](docs/reference/project-context.md)

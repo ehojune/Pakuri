@@ -59,7 +59,7 @@ Relevance tags are editorial suggestions for ehojune projects. They are not fact
 
 - GitHub profiles establish self-described public identity; not government identity checks. Every selected account is API type `User`, every organization type `Organization`, and every pinned repository `private=false`.
 - Ownership and nonzero contributor metadata are observed, not inferred from fame or star counts. Lab PI ownership is distinguished as `lab_project`. Contributor totals are selection evidence, not a complete activity count.
-- Archived Illumina/manta and Illumina/strelka remain monitored as important historical tools; archived status is recorded. No current Illumina employment is inferred for Saunders or Krusche. The official Illumina article calls Dolzhenko an alumnus.
+- Archived Illumina/manta and Illumina/strelka remain in the reference map as important historical tools; archived status is recorded. No current Illumina employment is inferred for Saunders or Krusche. The official Illumina article calls Dolzhenko an alumnus.
 - Alex Dobin now has Arc Institute evidence; Gayoso has Google DeepMind evidence. Mirdita reports SKKU since January 2026, and SNU 2022–2025 is kept as past work.
 - `hamel` is an unrelated organization. Correct accounts: `hamelsmu`, `tseemann`, `StellaAthena`. `bw2/str-analysis` is absent; use `broadinstitute/str-analysis`. FastMCP is now `PrefectHQ/fastmcp`.
 - Sources are untrusted reference material. No instructions from profiles, titles, repository descriptions, papers or commit messages were executed. No private repository data or source-code blobs were collected.

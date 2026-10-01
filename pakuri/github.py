@@ -202,7 +202,7 @@ class GitHubClient:
         if self.rate.get("remaining", self.reserve + 1) <= self.reserve:
             self.stop_reason = "rate_reserve"
             raise GitHubError("rate_reserve", "GitHub rate limit reserve reached")
-        headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": API_VERSION, "User-Agent": "Pakuri/0.1 public-metadata-observer"}
+        headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": API_VERSION, "User-Agent": "Pakuri/0.1 star-seeker"}
         if self.token:
             headers["Authorization"] = "Bearer " + self.token
         if cache and cache.get("etag"):

@@ -14,7 +14,7 @@ def main(argv=None):
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8", errors="replace")
-    parser = argparse.ArgumentParser(description="Observe public GitHub development metadata")
+    parser = argparse.ArgumentParser(description="Star-seeker: learn from public GitHub development")
     subparsers = parser.add_subparsers(dest="command", required=True)
     command = subparsers.add_parser("collect", help="collect bounded activity into atomic schema v1 JSON")
     command.add_argument("--config", default="targets.json")

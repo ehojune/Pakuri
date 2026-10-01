@@ -20,7 +20,7 @@ Every item has `id, kind, title, url, published_at, observed_at, actor, repo, ba
 
 Publication time means the source's event, commit or release time; it is not interchangeable with observation time. A commit timestamp alone does not establish when a branch was pushed. A repository creation time does not establish when an account acquired it.
 
-Concrete connection changes: (1) Pakuri collects hourly into its own ignored SQLite/JSON files; (2) `PAKURI_PATH` selects that local folder; (3) `pakuri_activity` reads the cache without network calls or delivery mutations; (4) the morning briefing appends a deterministic brief and records only included IDs after Slack acknowledges success. No private target roster is copied into Kuromi.
+Concrete connection changes: (1) Pakuri collects hourly into its own ignored SQLite/JSON files; (2) `PAKURI_PATH` selects that local folder; (3) `pakuri_activity` reads the cache without network calls or delivery mutations; (4) the morning briefing appends a deterministic brief and records only included IDs after Slack acknowledges success. Kuromi uses this interface; credentials and operational data stay local.
 
 External title/message text is escaped, length-limited data. The tool envelope labels it untrusted. No external text is used as a shell command, path, prompt instruction or URL to another host.
 
