@@ -4,6 +4,8 @@
 [![MIT](https://img.shields.io/github/license/ehojune/Pakuri)](LICENSE)
 [![Python >=3.12](https://img.shields.io/badge/python-%3E%3D3.12-3776AB?logo=python&logoColor=white)](pyproject.toml)
 
+![작은 별에서 망원경으로 별을 바라보는 어린왕자](docs/assets/star-seeker-prince.png)
+
 좋은 개발자의 발자취를 읽고 다음에 만들 것을 찾는다.
 
 AI agent·생물학·생물정보학 개발자의 **공개 GitHub 활동**에서 주제와 개발 방식을 배운다. 새 저장소·커밋·push·릴리스를 날짜와 원문 링크로 모은다. ‘Pakuri’는 참고해 온다는 뜻, ‘Star-seeker’의 별은 배울 만한 개발자와 프로젝트를 뜻한다. GitHub star 수로 순위를 매기지 않는다.

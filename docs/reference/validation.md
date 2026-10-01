@@ -17,7 +17,7 @@ Checked 2026-10-01 on the owner's Windows PC.
 | Kuromi activation | Local `.env` PAKURI_PATH set; existing app restarted hidden at 04:54 KST after checking no active model child; new process startup found, no error traceback |
 | Outbound data check | Tracked files scanned; no credential patterns, state DB, raw observation JSON or logs included |
 | CI | Windows and Ubuntu jobs passed; [runs](https://github.com/ehojune/Pakuri/actions) |
-| Read-often docs | README example/badges/custom roster: 3,224 → 4,206 characters (README 3,076; NEXT 379; DECISIONS 751). Reference evidence excluded |
+| Read-often docs | README images/badges/custom roster: 3,224 → 4,272 characters (README 3,142; NEXT 379; DECISIONS 751). Reference evidence excluded |
 
 The curated reference list is part of the public-release candidate; runtime data and credentials remain local. Kuromi's public checkout contains only generic adapter/config hooks; its other uncommitted changes were preserved and were not pushed. `.env` activation and app restart are local only; local backups are excluded from Git.
 
